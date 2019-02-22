@@ -1,8 +1,12 @@
-# learngit
-### 学习git
-> 代码無实际意义
+# 今晚打老虎
+
+> wad@as
+
+### adawda
+
+```java
+for(int i=1;i<10;i++){
+    system.out.println(i);
+}
 ```
-    git status
-    git commit
-    git pull
-```
+
