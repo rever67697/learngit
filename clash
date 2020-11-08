@@ -1,0 +1,1991 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: 127.0.0.1:9090
+proxies:
+  - {name: ALB 🇦🇱Tir, server: 31.171.154.149, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: ALB 🇦🇱Tir 2, server: 31.171.154.163, port: 33615, type: ss, cipher: aes-256-gcm, password: NSRCqbG4ZV7fTrpCyawngBRY}
+  - {name: ALB 🇦🇱Tir 3, server: 31.171.154.163, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: ALB 🇦🇱Tir 4, server: 31.171.154.163, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: ALB 🇦🇱Tir 5, server: 31.171.154.163, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: ALB 🇦🇱Tir 6, server: 31.171.154.163, port: 39942, type: ss, cipher: aes-256-gcm, password: ztnC5j7dm82KJSSpe2jk3eWB}
+  - {name: ALB 🇦🇱Tir 7, server: 31.171.154.163, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: ALB 🇦🇱 Tira, server: 31.171.154.149, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: ALB 🇦🇱 Tira 2, server: 31.171.154.163, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL}
+  - {name: ALB 🇦🇱 Tira 3, server: 31.171.154.163, port: 33798, type: ss, cipher: aes-256-gcm, password: z7ern6xRq5tNssfyAmLGbxEH}
+  - {name: ALB 🇦🇱 Tira 4, server: 31.171.152.197, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: ALB 🇦🇱 Tira 5, server: 31.171.154.163, port: 34583, type: ss, cipher: aes-256-gcm, password: hbWeaNJfjeP6GkT7jp6CSSx8}
+  - {name: 🇦🇷 ARG 🇦🇺 Per, server: 45.248.78.43, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: AST 🇦🇹 Vie, server: 37.120.212.77, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: AST 🇦🇹 Vie 2, server: 37.120.212.133, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: AST 🇦🇹 Vie 3, server: 37.120.212.141, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL}
+  - {name: AST 🇦🇹 Vie 4, server: 37.120.212.141, port: 33615, type: ss, cipher: aes-256-gcm, password: NSRCqbG4ZV7fTrpCyawngBRY}
+  - {name: AST 🇦🇹 Vie 5, server: 37.120.212.141, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: AST 🇦🇹 Vie 6, server: 37.120.212.141, port: 34583, type: ss, cipher: aes-256-gcm, password: hbWeaNJfjeP6GkT7jp6CSSx8}
+  - {name: AST 🇦🇹 Vie 7, server: 37.120.212.141, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: AST 🇦🇹 Vie 8, server: 37.120.212.141, port: 33798, type: ss, cipher: aes-256-gcm, password: z7ern6xRq5tNssfyAmLGbxEH}
+  - {name: AST 🇦🇹 Vie 9, server: 37.120.212.141, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: AST 🇦🇹 Vie 10, server: 37.120.212.141, port: 39942, type: ss, cipher: aes-256-gcm, password: ztnC5j7dm82KJSSpe2jk3eWB}
+  - {name: AST 🇦🇹 Vie 11, server: 148.72.174.46, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: AST 🇦🇹 Vie 12, server: 148.72.174.48, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇦🇺 AUS 🇦🇺 Adl, server: 45.248.79.37, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: 🇦🇺 AUS 🇦🇺 Brisb, server: 45.248.77.235, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇦🇺 AUS 🇦🇺 Bri, server: 144.48.39.83, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL}
+  - {name: 🇦🇺 AUS 🇦🇺 Bri 2, server: 144.48.39.83, port: 33615, type: ss, cipher: aes-256-gcm, password: NSRCqbG4ZV7fTrpCyawngBRY}
+  - {name: 🇦🇺 AUS 🇦🇺 Bri 3, server: 144.48.39.83, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇦🇺 AUS 🇦🇺 Bri 4, server: 144.48.39.83, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇦🇺 AUS 🇦🇺 Bri 5, server: 144.48.39.83, port: 34583, type: ss, cipher: aes-256-gcm, password: hbWeaNJfjeP6GkT7jp6CSSx8}
+  - {name: 🇦🇺 AUS 🇦🇺 Bri 6, server: 144.48.39.83, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇦🇺 AUS 🇦🇺 Bri 7, server: 144.48.39.83, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: 🇦🇺 AUS 🇦🇺 Bri 8, server: 144.48.39.83, port: 39942, type: ss, cipher: aes-256-gcm, password: ztnC5j7dm82KJSSpe2jk3eWB}
+  - {name: 🇦🇺 AUS 🇦🇺 Brisb 2, server: 144.48.39.123, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇦🇺 AUS 🇦🇺 Melb, server: 144.48.39.83, port: 33798, type: ss, cipher: aes-256-gcm, password: z7ern6xRq5tNssfyAmLGbxEH}
+  - {name: 🇦🇺 AUS 🇦🇺 Syd, server: 45.248.79.67, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇦🇺 AUS 🇦🇺 Syd 2, server: 45.248.79.69, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇦🇺 AUS 🇦🇺 Syd 3, server: 103.192.80.149, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇦🇺 AUS 🇦🇺 Syd 4, server: 144.48.38.149, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇦🇺 AUS 🇦🇺 Syd 5, server: 124.150.139.43, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇦🇺 AUS 🇦🇺 Syd 6, server: 45.248.76.171, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: 🇦🇺 AUS 🇦🇺 Syd 7, server: 45.248.78.43, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇦🇺 AUS 🇦🇺 Syd 8, server: 103.25.59.53, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇦🇺 AUS 🇦🇺 Syd 9, server: 185.167.116.91, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ}
+  - {name: 🇦🇺 AUS 🇦🇺 Syd 10, server: 185.167.116.146, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM}
+  - {name: 🇦🇺 AUS 🇦🇺 Syd 11, server: 185.167.116.146, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt}
+  - {name: 🇦🇺 AUS 🇦🇺 Syd 12, server: 185.167.116.91, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm}
+  - {name: 🇦🇺 AUS 🇦🇺 Syd 13, server: 185.167.116.145, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm}
+  - {name: 🇦🇺 AUS 🇦🇺 Syd 14, server: 185.167.116.147, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt}
+  - {name: 🇦🇺 AUS 🇦🇺 Syd 15, server: 185.167.116.148, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm}
+  - {name: 🇦🇺 AUS 🇦🇺 Bne, server: 45.248.77.235, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: 🇦🇺 AUS 🇦🇺 Mel, server: 144.48.38.141, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: AZR 🇦🇿 Bak, server: 94.20.21.87, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: AZR 🇦🇿 Bak 2, server: 94.20.21.85, port: 33615, type: ss, cipher: aes-256-gcm, password: NSRCqbG4ZV7fTrpCyawngBRY}
+  - {name: AZR 🇦🇿 Bak 3, server: 94.20.21.85, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: AZR 🇦🇿 Bak 4, server: 94.20.21.85, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: AZR 🇦🇿 Bak 5, server: 94.20.21.85, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: AZR 🇦🇿 Bak 6, server: 94.20.21.85, port: 39942, type: ss, cipher: aes-256-gcm, password: ztnC5j7dm82KJSSpe2jk3eWB}
+  - {name: AZR 🇦🇿 Bak 7, server: 94.20.21.85, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: AZR 🇦🇿 Baku, server: 94.20.21.85, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL}
+  - {name: AZR 🇦🇿 Baku 2, server: 94.20.21.85, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: AZR 🇦🇿 Baku 3, server: 94.20.21.85, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: AZR 🇦🇿 Baku 4, server: 94.20.21.85, port: 33798, type: ss, cipher: aes-256-gcm, password: z7ern6xRq5tNssfyAmLGbxEH}
+  - {name: AZR 🇦🇿 Baku 5, server: 94.20.21.85, port: 34583, type: ss, cipher: aes-256-gcm, password: hbWeaNJfjeP6GkT7jp6CSSx8}
+  - {name: AZR 🇦🇿 Baku 6, server: 94.20.21.87, port: 36133, type: ss, cipher: aes-256-gcm, password: xPNTeRxDB3u2ASfGmRj5V7GV}
+  - {name: 🇧🇪 BEL 🇧🇪 Brux, server: 37.120.218.251, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: 🇧🇪 BEL 🇧🇪 Brux 2, server: 37.120.218.251, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: BOS 🇧🇦 Ashq, server: 185.164.34.252, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: BOS 🇧🇦 Sar, server: 185.212.111.41, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: BOS 🇧🇦 Trav, server: 185.99.3.205, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇧🇷 BRA 🇧🇷 Sao, server: 191.96.73.216, port: 33615, type: ss, cipher: aes-256-gcm, password: NSRCqbG4ZV7fTrpCyawngBRY}
+  - {name: 🇧🇷 BRA 🇧🇷 Sao 2, server: 191.96.73.216, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇧🇷 BRA 🇧🇷 Sao 3, server: 191.96.73.216, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇧🇷 BRA 🇧🇷 Sao 4, server: 191.96.73.216, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: 🇧🇷 BRA 🇧🇷 Sao 5, server: 191.96.73.216, port: 39942, type: ss, cipher: aes-256-gcm, password: ztnC5j7dm82KJSSpe2jk3eWB}
+  - {name: 🇧🇷 BRA 🇧🇷 Sao 6, server: 191.96.73.216, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇧🇷 BRA 🇧🇷 Sao 7, server: 191.96.73.216, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL}
+  - {name: 🇧🇷 BRA 🇧🇷 Sao 8, server: 191.96.73.216, port: 33798, type: ss, cipher: aes-256-gcm, password: z7ern6xRq5tNssfyAmLGbxEH}
+  - {name: 🇧🇷 BRA 🇧🇷 Sao 9, server: 191.96.73.216, port: 34583, type: ss, cipher: aes-256-gcm, password: hbWeaNJfjeP6GkT7jp6CSSx8}
+  - {name: 🇧🇷 BRA 🇧🇷Sao, server: 191.96.73.214, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: BULG 🇧🇬 Sof, server: 37.120.152.37, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: BULG 🇧🇬 Suf, server: 37.120.152.195, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: BULG 🇧🇬 Suf 2, server: 37.120.152.197, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: BULG 🇧🇬 Suf 3, server: 37.120.152.197, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: CAN 🇨🇦 Ont, server: 64.137.189.88, port: 29993, type: ss, cipher: xchacha20-ietf-poly1305, password: t.cn/EGJIyrl}
+  - {name: CAN 🇨🇦 Ont 2, server: 64.137.190.69, port: 29993, type: ss, cipher: xchacha20-ietf-poly1305, password: t.cn/EGJIyrl}
+  - {name: CAN 🇨🇦 Ont 3, server: 104.167.101.4, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB}
+  - {name: CAN 🇨🇦 Ont 4, server: 139.64.244.246, port: 29993, type: ss, cipher: xchacha20-ietf-poly1305, password: t.cn/EGJIyrl}
+  - {name: CAN 🇨🇦 Ont 5, server: 139.64.245.4, port: 29993, type: ss, cipher: xchacha20-ietf-poly1305, password: t.cn/EGJIyrl}
+  - {name: CAN 🇨🇦 Ont 6, server: 139.64.245.5, port: 29993, type: ss, cipher: xchacha20-ietf-poly1305, password: t.cn/EGJIyrl}
+  - {name: CAN 🇨🇦 Tor, server: 162.253.71.211, port: 33615, type: ss, cipher: aes-256-gcm, password: NSRCqbG4ZV7fTrpCyawngBRY}
+  - {name: CAN 🇨🇦 Tor 2, server: 162.253.71.211, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: CAN 🇨🇦 Tor 3, server: 162.253.71.211, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: CAN 🇨🇦 Tor 4, server: 162.253.71.211, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: CAN 🇨🇦 Tor 5, server: 162.253.71.211, port: 39942, type: ss, cipher: aes-256-gcm, password: ztnC5j7dm82KJSSpe2jk3eWB}
+  - {name: CAN 🇨🇦 Tor 6, server: 162.253.71.211, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: CAN 🇨🇦 Tor 7, server: 155.254.31.184, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: CAN 🇨🇦 Tor 8, server: 162.253.71.211, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL}
+  - {name: CAN 🇨🇦 Tor 9, server: 162.253.71.211, port: 34583, type: ss, cipher: aes-256-gcm, password: hbWeaNJfjeP6GkT7jp6CSSx8}
+  - {name: CAN 🇨🇦 Van, server: 208.78.41.195, port: 33615, type: ss, cipher: aes-256-gcm, password: NSRCqbG4ZV7fTrpCyawngBRY}
+  - {name: CAN 🇨🇦 Van 2, server: 208.78.41.195, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: CAN 🇨🇦 Van 3, server: 208.78.41.195, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: CAN 🇨🇦 Van 4, server: 208.78.41.195, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: CAN 🇨🇦 Van 5, server: 172.98.87.35, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: CAN 🇨🇦 Van 6, server: 208.78.41.195, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL}
+  - {name: CAN 🇨🇦 Van 7, server: 208.78.41.195, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: CAN 🇨🇦 Van 8, server: 208.78.41.195, port: 39942, type: ss, cipher: aes-256-gcm, password: ztnC5j7dm82KJSSpe2jk3eWB}
+  - {name: CAN 🇨🇦 Van 9, server: 208.78.41.195, port: 33798, type: ss, cipher: aes-256-gcm, password: z7ern6xRq5tNssfyAmLGbxEH}
+  - {name: CAN 🇨🇦 Van 10, server: 208.78.41.195, port: 34583, type: ss, cipher: aes-256-gcm, password: hbWeaNJfjeP6GkT7jp6CSSx8}
+  - {name: CHIL 🇨🇱 San, server: 31.169.121.16, port: 33615, type: ss, cipher: aes-256-gcm, password: NSRCqbG4ZV7fTrpCyawngBRY}
+  - {name: CHIL 🇨🇱 San 2, server: 31.169.121.16, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: CHIL 🇨🇱 San 3, server: 31.169.121.16, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: CHIL 🇨🇱 San 4, server: 31.169.121.16, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: CHIL 🇨🇱 San 5, server: 31.169.121.16, port: 39942, type: ss, cipher: aes-256-gcm, password: ztnC5j7dm82KJSSpe2jk3eWB}
+  - {name: CHIL 🇨🇱 San 6, server: 31.169.121.16, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: CHIL 🇨🇱 San 7, server: 31.169.121.16, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: COL 🇨🇴 Bog, server: 45.129.32.22, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: COST 🇨🇷 Sjn, server: 176.227.241.19, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: 🇷🇴 CRO 🇭🇷 Zag, server: 89.164.99.109, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇷🇴 CRO 🇭🇷 Zag 2, server: 89.164.99.109, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇷🇴 CRO 🇭🇷 Zag 3, server: 89.164.99.109, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: 🇷🇴 CRO 🇭🇷 Zag 4, server: 89.164.99.109, port: 39942, type: ss, cipher: aes-256-gcm, password: ztnC5j7dm82KJSSpe2jk3eWB}
+  - {name: 🇷🇴 CRO 🇭🇷 Zag 5, server: 89.164.99.109, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇷🇴 CRO 🇭🇷 Zag 6, server: 89.164.99.109, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇷🇴 CRO 🇭🇷 Zag 7, server: 89.164.99.111, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇷🇴 CRO 🇭🇷Zag, server: 89.164.99.111, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: CYP 🇨🇾 Nic, server: 195.47.194.36, port: 33615, type: ss, cipher: aes-256-gcm, password: NSRCqbG4ZV7fTrpCyawngBRY}
+  - {name: CYP 🇨🇾 Nic 2, server: 195.47.194.36, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: CYP 🇨🇾 Nic 3, server: 195.47.194.36, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: CYP 🇨🇾 Nic 4, server: 195.47.194.36, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: CYP 🇨🇾 Nic 5, server: 195.47.194.36, port: 39942, type: ss, cipher: aes-256-gcm, password: ztnC5j7dm82KJSSpe2jk3eWB}
+  - {name: CYP 🇨🇾 Nic 6, server: 195.47.194.36, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: CYP 🇨🇾 Nic 7, server: 195.47.194.61, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: CYP 🇨🇾 Nico, server: 195.47.194.34, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: CYP 🇨🇾 Nico 2, server: 195.47.194.32, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: CYP 🇨🇾 Nico 3, server: 195.47.194.36, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL}
+  - {name: CYP 🇨🇾 Nico 4, server: 195.47.194.36, port: 33798, type: ss, cipher: aes-256-gcm, password: z7ern6xRq5tNssfyAmLGbxEH}
+  - {name: CYP 🇨🇾 Nico 5, server: 195.47.194.36, port: 34583, type: ss, cipher: aes-256-gcm, password: hbWeaNJfjeP6GkT7jp6CSSx8}
+  - {name: CZE 🇨🇿 Prg, server: 193.9.112.195, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: 🇩🇪 DEN 🇩🇰 Balr, server: 37.120.145.21, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇩🇪 DEN 🇩🇰 Balr 2, server: 37.120.194.107, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇩🇪 DEN 🇩🇰 Cop, server: 37.120.194.115, port: 33615, type: ss, cipher: aes-256-gcm, password: NSRCqbG4ZV7fTrpCyawngBRY}
+  - {name: 🇩🇪 DEN 🇩🇰 Cop 2, server: 37.120.194.115, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇩🇪 DEN 🇩🇰 Cop 3, server: 37.120.194.115, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇩🇪 DEN 🇩🇰 Cop 4, server: 37.120.194.115, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: 🇩🇪 DEN 🇩🇰 Cop 5, server: 37.120.194.115, port: 39942, type: ss, cipher: aes-256-gcm, password: ztnC5j7dm82KJSSpe2jk3eWB}
+  - {name: 🇩🇪 DEN 🇩🇰 Cop 6, server: 37.120.194.115, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇩🇪 DEN 🇩🇰 Cop 7, server: 37.120.194.115, port: 33798, type: ss, cipher: aes-256-gcm, password: z7ern6xRq5tNssfyAmLGbxEH}
+  - {name: 🇩🇪 DEN 🇩🇰 Cop 8, server: 37.120.194.115, port: 34583, type: ss, cipher: aes-256-gcm, password: hbWeaNJfjeP6GkT7jp6CSSx8}
+  - {name: 🇩🇪 DEN 🇩🇰 Cph, server: 45.12.221.179, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: 🇪🇸 EST 🇪🇪 Tal, server: 165.231.163.7, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: 🇪🇸 EST 🇪🇪 Tal 2, server: 185.174.159.59, port: 33615, type: ss, cipher: aes-256-gcm, password: NSRCqbG4ZV7fTrpCyawngBRY}
+  - {name: 🇪🇸 EST 🇪🇪 Tal 3, server: 185.174.159.59, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇪🇸 EST 🇪🇪 Tal 4, server: 185.174.159.59, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇪🇸 EST 🇪🇪 Tal 5, server: 185.174.159.59, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: 🇪🇸 EST 🇪🇪 Tal 6, server: 185.174.159.59, port: 39942, type: ss, cipher: aes-256-gcm, password: ztnC5j7dm82KJSSpe2jk3eWB}
+  - {name: 🇪🇸 EST 🇪🇪 Tal 7, server: 185.174.159.59, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇪🇸 EST 🇪🇪 Tal 8, server: 185.174.159.59, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL}
+  - {name: 🇪🇸 EST 🇪🇪 Tal 9, server: 185.174.159.59, port: 34583, type: ss, cipher: aes-256-gcm, password: hbWeaNJfjeP6GkT7jp6CSSx8}
+  - {name: FIN 🇫🇮 Hel, server: 196.244.191.179, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: FIN 🇫🇮 Hel 2, server: 196.244.191.165, port: 39942, type: ss, cipher: aes-256-gcm, password: ztnC5j7dm82KJSSpe2jk3eWB}
+  - {name: FIN 🇫🇮 Hel 3, server: 196.244.191.165, port: 33615, type: ss, cipher: aes-256-gcm, password: NSRCqbG4ZV7fTrpCyawngBRY}
+  - {name: FIN 🇫🇮 Hel 4, server: 196.244.191.165, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: FIN 🇫🇮 Hel 5, server: 196.244.191.165, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: FIN 🇫🇮 Hel 6, server: 196.244.191.165, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: FIN 🇫🇮 Hel 7, server: 196.244.191.165, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: FIN 🇫🇮 Hels, server: 165.231.163.7, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: FIN 🇫🇮 Hels 2, server: 165.231.253.149, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: FIN 🇫🇮 Hels 3, server: 196.244.191.163, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: FIN 🇫🇮 Hels 4, server: 196.244.191.163, port: 36133, type: ss, cipher: aes-256-gcm, password: xPNTeRxDB3u2ASfGmRj5V7GV}
+  - {name: FIN 🇫🇮 Hels 5, server: 196.244.191.165, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL}
+  - {name: FIN 🇫🇮 Hels 6, server: 196.244.191.165, port: 34583, type: ss, cipher: aes-256-gcm, password: hbWeaNJfjeP6GkT7jp6CSSx8}
+  - {name: FIN 🇫🇮 Hels 7, server: 196.244.191.197, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇺🇸 FIN 🇫🇮 Usima, server: 165.231.253.147, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇺🇸 FIN 🇫🇮 Usima 2, server: 196.244.191.165, port: 33798, type: ss, cipher: aes-256-gcm, password: z7ern6xRq5tNssfyAmLGbxEH}
+  - {name: 🇫🇷 FRA 🇫🇷 Bod, server: 185.108.106.166, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: 🇫🇷 FRA 🇫🇷 Mersl, server: 185.166.84.33, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇫🇷 FRA 🇫🇷 Mersl 2, server: 185.166.84.77, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇫🇷 FRA 🇫🇷 Par, server: 217.138.207.253, port: 33615, type: ss, cipher: aes-256-gcm, password: NSRCqbG4ZV7fTrpCyawngBRY}
+  - {name: 🇫🇷 FRA 🇫🇷 Par 2, server: 217.138.207.253, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇫🇷 FRA 🇫🇷 Par 3, server: 217.138.207.253, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: 🇫🇷 FRA 🇫🇷 Par 4, server: 217.138.207.253, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇫🇷 FRA 🇫🇷 Par 5, server: 217.138.207.253, port: 39942, type: ss, cipher: aes-256-gcm, password: ztnC5j7dm82KJSSpe2jk3eWB}
+  - {name: 🇫🇷 FRA 🇫🇷 Par 6, server: 217.138.207.253, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇫🇷 FRA 🇫🇷 Par 7, server: 217.138.207.253, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL}
+  - {name: 🇫🇷 FRA 🇫🇷 Par 8, server: 84.17.43.178, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇫🇷 FRA 🇫🇷 Par 9, server: 84.17.43.183, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇫🇷 FRA 🇫🇷 Par 10, server: 217.138.207.253, port: 33798, type: ss, cipher: aes-256-gcm, password: z7ern6xRq5tNssfyAmLGbxEH}
+  - {name: 🇫🇷 FRA 🇫🇷 Par 11, server: 217.138.207.253, port: 34583, type: ss, cipher: aes-256-gcm, password: hbWeaNJfjeP6GkT7jp6CSSx8}
+  - {name: 🇫🇷 FRA 🇫🇷 SDen, server: 84.247.51.235, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇫🇷 FRA 🇫🇷 SDen 2, server: 217.138.207.253, port: 33146, type: ss, cipher: aes-256-gcm, password: wPWXCKvF8McZHGgZKF89AHXK}
+  - {name: 🇫🇷 FRA 🇫🇷 SDen 3, server: 217.138.207.253, port: 33146, type: ss, cipher: aes-256-gcm, password: wPWXCKvF8McZHGgZKF89AHXK}
+  - {name: GER 🇩🇪 Ber, server: 37.120.217.179, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: GER 🇩🇪 Ber 2, server: 217.138.216.61, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: GER 🇩🇪 Ber 3, server: 217.138.216.61, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: GER 🇩🇪 Ber 4, server: 217.138.216.61, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: GER 🇩🇪 Ber 5, server: 217.138.216.61, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: GER 🇩🇪 Fra, server: 45.87.212.213, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: GER 🇩🇪 Fra 2, server: 185.102.219.47, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: GER 🇩🇪 Fra 3, server: 185.102.219.47, port: 33615, type: ss, cipher: aes-256-gcm, password: NSRCqbG4ZV7fTrpCyawngBRY}
+  - {name: GER 🇩🇪 Fra 4, server: 185.102.219.47, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: GER 🇩🇪 Fra 5, server: 185.102.219.47, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: GER 🇩🇪 Ber 6, server: 217.138.216.61, port: 33615, type: ss, cipher: aes-256-gcm, password: NSRCqbG4ZV7fTrpCyawngBRY}
+  - {name: GER 🇩🇪 Mun, server: 178.238.231.49, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: GER 🇩🇪 Mun 2, server: 178.238.231.49, port: 33615, type: ss, cipher: aes-256-gcm, password: NSRCqbG4ZV7fTrpCyawngBRY}
+  - {name: GER 🇩🇪 Mun 3, server: 178.238.231.49, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: GER 🇩🇪 Mun 4, server: 178.238.231.49, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: GER 🇩🇪 Mun 5, server: 178.238.231.49, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: GER 🇩🇪 Fra 6, server: 185.102.219.47, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: GER 🇩🇪 Fra 7, server: 185.102.219.47, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL}
+  - {name: GER 🇩🇪 Fra 8, server: 185.102.219.47, port: 39942, type: ss, cipher: aes-256-gcm, password: ztnC5j7dm82KJSSpe2jk3eWB}
+  - {name: GER 🇩🇪 Ber 7, server: 217.138.216.61, port: 39942, type: ss, cipher: aes-256-gcm, password: ztnC5j7dm82KJSSpe2jk3eWB}
+  - {name: GER 🇩🇪 Mun 6, server: 178.238.231.49, port: 39942, type: ss, cipher: aes-256-gcm, password: ztnC5j7dm82KJSSpe2jk3eWB}
+  - {name: GER 🇩🇪 Mun 7, server: 178.238.231.49, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL}
+  - {name: GER 🇩🇪 Berl, server: 78.159.103.164, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: GER 🇩🇪 Berl 2, server: 193.108.118.126, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: GER 🇩🇪 Berl 3, server: 193.108.118.131, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: GER 🇩🇪 Berl 4, server: 193.108.118.140, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: GER 🇩🇪 Berl 5, server: 193.108.118.141, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: GER 🇩🇪 Berl 6, server: 193.108.118.175, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: GER 🇩🇪 Berl 7, server: 217.138.216.59, port: 33146, type: ss, cipher: aes-256-gcm, password: wPWXCKvF8McZHGgZKF89AHXK}
+  - {name: GER 🇩🇪 Ber 8, server: 217.138.216.61, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL}
+  - {name: GER 🇩🇪 Berl 8, server: 217.138.216.61, port: 34583, type: ss, cipher: aes-256-gcm, password: hbWeaNJfjeP6GkT7jp6CSSx8}
+  - {name: GER 🇩🇪 Berl 9, server: 217.138.216.229, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇺🇸 GER 🇩🇪 Dusl, server: 89.187.169.119, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: GER 🇩🇪 Fra 9, server: 45.128.153.77, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM}
+  - {name: GER 🇩🇪 Fra 10, server: 45.128.153.78, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq}
+  - {name: GER 🇩🇪 Fra 11, server: 74.119.145.51, port: 36133, type: ss, cipher: aes-256-gcm, password: xPNTeRxDB3u2ASfGmRj5V7GV}
+  - {name: GER 🇩🇪 Fra 12, server: 185.102.219.6, port: 36133, type: ss, cipher: aes-256-gcm, password: xPNTeRxDB3u2ASfGmRj5V7GV}
+  - {name: GER 🇩🇪 Fra 13, server: 185.102.219.47, port: 33798, type: ss, cipher: aes-256-gcm, password: z7ern6xRq5tNssfyAmLGbxEH}
+  - {name: GER 🇩🇪 Fra 14, server: 185.102.219.47, port: 34583, type: ss, cipher: aes-256-gcm, password: hbWeaNJfjeP6GkT7jp6CSSx8}
+  - {name: GER 🇩🇪 Mun 8, server: 178.238.231.49, port: 34583, type: ss, cipher: aes-256-gcm, password: hbWeaNJfjeP6GkT7jp6CSSx8}
+  - {name: 🇺🇸 GER 🇩🇪 Neus, server: 5.187.49.187, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: GRE 🇬🇷 Ath, server: 194.150.167.42, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: GRE 🇬🇷 Ath 2, server: 87.239.248.87, port: 33615, type: ss, cipher: aes-256-gcm, password: NSRCqbG4ZV7fTrpCyawngBRY}
+  - {name: GRE 🇬🇷 Ath 3, server: 87.239.248.87, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: GRE 🇬🇷 Ath 4, server: 87.239.248.87, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: GRE 🇬🇷 Ath 5, server: 87.239.248.87, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: GRE 🇬🇷 Ath 6, server: 87.239.248.87, port: 39942, type: ss, cipher: aes-256-gcm, password: ztnC5j7dm82KJSSpe2jk3eWB}
+  - {name: GRE 🇬🇷 Ath 7, server: 87.239.248.87, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: GREC 🇬🇷 Athn, server: 194.150.167.40, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: GREC 🇬🇷 Athn 2, server: 194.150.167.44, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇭🇰 HKG 🇭🇰 Hkg, server: 84.17.37.154, port: 33615, type: ss, cipher: aes-256-gcm, password: NSRCqbG4ZV7fTrpCyawngBRY}
+  - {name: 🇭🇰 HKG 🇭🇰 Hkg 2, server: 84.17.37.154, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇭🇰 HKG 🇭🇰 Hkg 3, server: 84.17.37.154, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇭🇰 HKG 🇭🇰 Hkg 4, server: 84.17.37.154, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: 🇭🇰 HKG 🇭🇰 Hkg 5, server: 84.17.37.154, port: 39942, type: ss, cipher: aes-256-gcm, password: ztnC5j7dm82KJSSpe2jk3eWB}
+  - {name: 🇭🇰 HKG 🇭🇰 Hkg 6, server: 84.17.37.154, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇭🇰 HKG 🇭🇰 Hkg 7, server: 47.56.148.2, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB}
+  - {name: 🇭🇰 HKG 🇭🇰 Hkg 8, server: 47.56.155.7, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB}
+  - {name: 🇭🇰 HKG 🇭🇰 Hkg 9, server: 84.17.37.154, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL}
+  - {name: 🇭🇰 HKG 🇭🇰 Hkg 10, server: 84.17.37.154, port: 33798, type: ss, cipher: aes-256-gcm, password: z7ern6xRq5tNssfyAmLGbxEH}
+  - {name: 🇭🇰 HKG 🇭🇰 Hkg 11, server: 84.17.37.154, port: 34583, type: ss, cipher: aes-256-gcm, password: hbWeaNJfjeP6GkT7jp6CSSx8}
+  - {name: 🇭🇰 HKG 🇭🇰 Hkg 12, server: 84.17.57.68, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇭🇰 HKG 🇭🇰 Hkg 13, server: 222.186.37.5, port: 8443, type: ss, cipher: aes-128-cfb, password: ZuNdgZRnUYKcdK14g1A8Q71nV3XJ}
+  - {name: 🇭🇰 HKG 🇭🇰 Hkg 14, server: 84.17.37.156, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: HUNG 🇭🇺 Bud, server: 37.120.144.149, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: HUNG 🇭🇺 Bud 2, server: 37.120.144.243, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: HUNG 🇭🇺 Budap, server: 37.120.144.245, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: ICL 🇮🇸 Ryk, server: 82.221.128.166, port: 33615, type: ss, cipher: aes-256-gcm, password: NSRCqbG4ZV7fTrpCyawngBRY}
+  - {name: ICL 🇮🇸 Ryk 2, server: 82.221.128.166, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: ICL 🇮🇸 Ryk 3, server: 82.221.128.166, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: ICL 🇮🇸 Ryk 4, server: 82.221.128.166, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: ICL 🇮🇸 Ryk 5, server: 82.221.128.166, port: 39942, type: ss, cipher: aes-256-gcm, password: ztnC5j7dm82KJSSpe2jk3eWB}
+  - {name: ICL 🇮🇸 Ryk 6, server: 82.221.128.166, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: ICL 🇮🇸 Ryk 7, server: 82.221.128.166, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL}
+  - {name: ICL 🇮🇸 Ryk 8, server: 82.221.128.166, port: 33798, type: ss, cipher: aes-256-gcm, password: z7ern6xRq5tNssfyAmLGbxEH}
+  - {name: ICL 🇮🇸 Ryk 9, server: 82.221.128.166, port: 34583, type: ss, cipher: aes-256-gcm, password: hbWeaNJfjeP6GkT7jp6CSSx8}
+  - {name: ICL 🇮🇸 Ryk 10, server: 82.221.128.166, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: ICL 🇮🇸 Ryk 11, server: 82.221.128.166, port: 36133, type: ss, cipher: aes-256-gcm, password: xPNTeRxDB3u2ASfGmRj5V7GV}
+  - {name: ICL 🇮🇸 Ryk 12, server: 82.221.143.243, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: ICL 🇮🇸 Ryk 13, server: 82.221.143.241, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: IND 🇮🇳 Banga, server: 103.73.189.219, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: IND 🇮🇳 Chen, server: 103.94.27.229, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: IND 🇮🇳 Chen 2, server: 103.108.117.149, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: IND 🇮🇳 Chen 3, server: 103.108.117.147, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: IND 🇮🇳 Mum, server: 165.231.253.147, port: 33615, type: ss, cipher: aes-256-gcm, password: NSRCqbG4ZV7fTrpCyawngBRY}
+  - {name: IND 🇮🇳 Mum 2, server: 165.231.253.147, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: IND 🇮🇳 Mum 3, server: 165.231.253.147, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: IND 🇮🇳 Mum 4, server: 165.231.253.147, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: IND 🇮🇳 Mum 5, server: 165.231.253.147, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: IND 🇮🇳 Mum 6, server: 165.231.253.147, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL}
+  - {name: IND 🇮🇳 Mum 7, server: 165.231.253.147, port: 39942, type: ss, cipher: aes-256-gcm, password: ztnC5j7dm82KJSSpe2jk3eWB}
+  - {name: IND 🇮🇳 Mum 8, server: 137.59.52.107, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: IND 🇮🇳 Mum 9, server: 165.231.253.147, port: 33798, type: ss, cipher: aes-256-gcm, password: z7ern6xRq5tNssfyAmLGbxEH}
+  - {name: IND 🇮🇳 Mum 10, server: 165.231.253.147, port: 34583, type: ss, cipher: aes-256-gcm, password: hbWeaNJfjeP6GkT7jp6CSSx8}
+  - {name: INDO 🇮🇩 Bali, server: 103.120.66.216, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: INDO 🇮🇩 Jak, server: 172.241.114.87, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: INDO 🇮🇩 Jak 2, server: 209.58.128.50, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: INDO 🇮🇩 Jak 3, server: 103.120.66.219, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: IRL 🇮🇪 Dubl, server: 23.92.127.91, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: IRL 🇮🇪 Dub, server: 185.108.128.159, port: 33615, type: ss, cipher: aes-256-gcm, password: NSRCqbG4ZV7fTrpCyawngBRY}
+  - {name: IRL 🇮🇪 Dub 2, server: 185.108.128.159, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: IRL 🇮🇪 Dub 3, server: 185.108.128.159, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: IRL 🇮🇪 Dub 4, server: 185.108.128.159, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: IRL 🇮🇪 Dub 5, server: 185.108.128.159, port: 39942, type: ss, cipher: aes-256-gcm, password: ztnC5j7dm82KJSSpe2jk3eWB}
+  - {name: IRL 🇮🇪 Dub 6, server: 185.108.128.159, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: IRL 🇮🇪 Dubl 2, server: 185.108.128.159, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL}
+  - {name: IRL 🇮🇪 Dubl 3, server: 185.108.128.159, port: 33798, type: ss, cipher: aes-256-gcm, password: z7ern6xRq5tNssfyAmLGbxEH}
+  - {name: IRL 🇮🇪 Dubl 4, server: 185.108.128.159, port: 34583, type: ss, cipher: aes-256-gcm, password: hbWeaNJfjeP6GkT7jp6CSSx8}
+  - {name: IRL 🇮🇪 Dubl 5, server: 185.108.128.181, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: IRL 🇮🇪 Dubl 6, server: 185.108.128.183, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: IRL 🇮🇪 Tel, server: 87.239.255.107, port: 33615, type: ss, cipher: aes-256-gcm, password: NSRCqbG4ZV7fTrpCyawngBRY}
+  - {name: IRL 🇮🇪 Tel 2, server: 87.239.255.107, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: IRL 🇮🇪 Tel 3, server: 87.239.255.107, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: IRL 🇮🇪 Tel 4, server: 87.239.255.107, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: IRL 🇮🇪 Tel 5, server: 87.239.255.107, port: 39942, type: ss, cipher: aes-256-gcm, password: ztnC5j7dm82KJSSpe2jk3eWB}
+  - {name: IRL 🇮🇪 Tel 6, server: 87.239.255.107, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: IRL 🇮🇪 Tel 7, server: 87.239.255.107, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL}
+  - {name: IRL 🇮🇪 Tel 8, server: 87.239.255.107, port: 33798, type: ss, cipher: aes-256-gcm, password: z7ern6xRq5tNssfyAmLGbxEH}
+  - {name: IRL 🇮🇪 Tel 9, server: 87.239.255.107, port: 34583, type: ss, cipher: aes-256-gcm, password: hbWeaNJfjeP6GkT7jp6CSSx8}
+  - {name: ISR 🇮🇱 Tel, server: 87.239.255.107, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: ISR 🇮🇱 Tel 2, server: 87.239.255.119, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: ISR 🇮🇱 Tel 3, server: 87.239.255.121, port: 33146, type: ss, cipher: aes-256-gcm, password: wPWXCKvF8McZHGgZKF89AHXK}
+  - {name: ISR 🇮🇱 Tel 4, server: 87.239.255.119, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: ITA 🇮🇹 Mil, server: 84.17.58.150, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: ITA 🇮🇹 Mil 2, server: 84.17.58.152, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: ITA 🇮🇹 Mil 3, server: 84.17.58.152, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: ITA 🇮🇹 Mil 4, server: 84.17.58.190, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: ITA 🇮🇹 Rom, server: 217.138.219.237, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL}
+  - {name: ITA 🇮🇹 Rom 2, server: 217.138.219.237, port: 33615, type: ss, cipher: aes-256-gcm, password: NSRCqbG4ZV7fTrpCyawngBRY}
+  - {name: ITA 🇮🇹 Rom 3, server: 217.138.219.237, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: ITA 🇮🇹 Rom 4, server: 217.138.219.237, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: ITA 🇮🇹 Rom 5, server: 217.138.219.237, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: ITA 🇮🇹 Rom 6, server: 217.138.219.237, port: 39942, type: ss, cipher: aes-256-gcm, password: ztnC5j7dm82KJSSpe2jk3eWB}
+  - {name: ITA 🇮🇹 Rom 7, server: 217.138.219.237, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: ITA 🇮🇹 Rom 8, server: 82.102.26.115, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: ITA 🇮🇹 Rom 9, server: 217.138.219.237, port: 33798, type: ss, cipher: aes-256-gcm, password: z7ern6xRq5tNssfyAmLGbxEH}
+  - {name: ITA 🇮🇹 Rom 10, server: 217.138.219.237, port: 34583, type: ss, cipher: aes-256-gcm, password: hbWeaNJfjeP6GkT7jp6CSSx8}
+  - {name: 🇯🇵 JPN 🇯🇵 Tok, server: 45.87.213.85, port: 33615, type: ss, cipher: aes-256-gcm, password: NSRCqbG4ZV7fTrpCyawngBRY}
+  - {name: 🇯🇵 JPN 🇯🇵 Tok 2, server: 45.87.213.85, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇯🇵 JPN 🇯🇵 Tok 3, server: 45.87.213.85, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇯🇵 JPN 🇯🇵 Tok 4, server: 45.87.213.85, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: 🇯🇵 JPN 🇯🇵 Tok 5, server: 45.87.213.85, port: 39942, type: ss, cipher: aes-256-gcm, password: ztnC5j7dm82KJSSpe2jk3eWB}
+  - {name: 🇯🇵 JPN 🇯🇵 Tok 6, server: 45.87.213.85, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇯🇵 JPN 🇯🇵 Tok 7, server: 45.87.213.85, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL}
+  - {name: 🇯🇵 JPN 🇯🇵 Tok 8, server: 45.87.213.85, port: 33798, type: ss, cipher: aes-256-gcm, password: z7ern6xRq5tNssfyAmLGbxEH}
+  - {name: 🇯🇵 JPN 🇯🇵 Tok 9, server: 45.87.213.85, port: 34583, type: ss, cipher: aes-256-gcm, password: hbWeaNJfjeP6GkT7jp6CSSx8}
+  - {name: 🇯🇵 JPN 🇯🇵 Tok 10, server: 45.87.213.87, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇯🇵 JPN 🇯🇵 Tok 11, server: 89.187.161.4, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇯🇵 JPN 🇯🇵 Tok 12, server: 45.87.213.103, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: KAZ 🇰🇿 Uba, server: 95.57.207.202, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: 🇰🇷 KOR 🇰🇷 Seu, server: 103.249.31.24, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: 🇰🇷 KOR 🇰🇷 Seu 2, server: 61.14.210.242, port: 33615, type: ss, cipher: aes-256-gcm, password: NSRCqbG4ZV7fTrpCyawngBRY}
+  - {name: 🇰🇷 KOR 🇰🇷 Seu 3, server: 61.14.210.242, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇰🇷 KOR 🇰🇷 Seu 4, server: 61.14.210.242, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇰🇷 KOR 🇰🇷 Seu 5, server: 61.14.210.242, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: 🇰🇷 KOR 🇰🇷 Seu 6, server: 61.14.210.242, port: 39942, type: ss, cipher: aes-256-gcm, password: ztnC5j7dm82KJSSpe2jk3eWB}
+  - {name: 🇰🇷 KOR 🇰🇷 Seu 7, server: 61.14.210.242, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇰🇷 KOR 🇰🇷 Seu 8, server: 61.14.210.242, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL}
+  - {name: 🇰🇷 KOR 🇰🇷 Seu 9, server: 61.14.210.242, port: 33798, type: ss, cipher: aes-256-gcm, password: z7ern6xRq5tNssfyAmLGbxEH}
+  - {name: 🇰🇷 KOR 🇰🇷 Seu 10, server: 61.14.210.242, port: 34583, type: ss, cipher: aes-256-gcm, password: hbWeaNJfjeP6GkT7jp6CSSx8}
+  - {name: 🇰🇷 KOR 🇰🇷 Seu 11, server: 61.14.210.244, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇰🇷 KOR 🇰🇷 Seu 12, server: 103.249.28.231, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: LATV 🇱🇻 Riga, server: 188.92.78.135, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: LATV 🇱🇻 Riga 2, server: 188.92.78.140, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: LATV 🇱🇻 Riga 3, server: 188.92.78.140, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: LATV 🇱🇻 Riga 4, server: 188.92.78.145, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: LATV 🇱🇻 Riga 5, server: 188.92.78.145, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: LIB 🇱🇾 Trip, server: 41.208.72.157, port: 33615, type: ss, cipher: aes-256-gcm, password: NSRCqbG4ZV7fTrpCyawngBRY}
+  - {name: LIB 🇱🇾 Trip 2, server: 41.208.72.157, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: LIB 🇱🇾 Trip 3, server: 41.208.72.157, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: LIB 🇱🇾 Trip 4, server: 41.208.72.157, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: LIB 🇱🇾 Trip 5, server: 41.208.72.157, port: 39942, type: ss, cipher: aes-256-gcm, password: ztnC5j7dm82KJSSpe2jk3eWB}
+  - {name: LIB 🇱🇾 Trip 6, server: 41.208.72.157, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: LIB 🇱🇾 Trip 7, server: 41.208.72.157, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL}
+  - {name: LIB 🇱🇾 Trip 8, server: 41.208.72.157, port: 33798, type: ss, cipher: aes-256-gcm, password: z7ern6xRq5tNssfyAmLGbxEH}
+  - {name: LIB 🇱🇾 Trip 9, server: 41.208.72.157, port: 34583, type: ss, cipher: aes-256-gcm, password: hbWeaNJfjeP6GkT7jp6CSSx8}
+  - {name: LIB 🇱🇾 Trip 10, server: 41.208.72.204, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: LIB 🇱🇾 Trip 11, server: 41.208.72.157, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: LUX 🇱🇺 Ste, server: 185.153.151.87, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: LUX 🇱🇺 Lux, server: 185.153.151.80, port: 32785, type: ss, cipher: aes-256-gcm, password: z5W5gEP4qHvcWcbgfySqU7tB}
+  - {name: LUX 🇱🇺 Lux, server: 185.153.151.82, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: LUX 🇱🇺 Lux 2, server: 185.153.151.82, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: LUX 🇱🇺 Lux 2, server: 185.153.151.89, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: LUX 🇱🇺 Lux 3, server: 185.153.151.75, port: 34583, type: ss, cipher: aes-256-gcm, password: hbWeaNJfjeP6GkT7jp6CSSx8}
+  - {name: LUX 🇱🇺 Lux 4, server: 185.153.151.98, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇦🇨 MAC 🇲🇰 Skpj, server: 185.225.28.93, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇦🇨 MAC 🇲🇰 Skpj 2, server: 185.225.28.107, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇦🇨 MAC 🇲🇰 Skpj 3, server: 185.225.28.109, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇦🇨 MAC 🇲🇰 Skpj 4, server: 185.225.28.93, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: MAL 🇲🇾 Kul, server: 42.0.30.150, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: MEX 🇲🇽 Mex, server: 194.41.112.5, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: MEX 🇲🇽 Mex 2, server: 194.41.112.3, port: 33615, type: ss, cipher: aes-256-gcm, password: NSRCqbG4ZV7fTrpCyawngBRY}
+  - {name: MEX 🇲🇽 Mex 3, server: 194.41.112.3, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: MEX 🇲🇽 Mex 4, server: 194.41.112.3, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: MEX 🇲🇽 Mex 5, server: 194.41.112.3, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: MEX 🇲🇽 Mex 6, server: 194.41.112.3, port: 39942, type: ss, cipher: aes-256-gcm, password: ztnC5j7dm82KJSSpe2jk3eWB}
+  - {name: MEX 🇲🇽 Mex 7, server: 194.41.112.3, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: MEX 🇲🇽 Mex 8, server: 194.41.112.3, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL}
+  - {name: MEX 🇲🇽 Mex 9, server: 194.41.112.3, port: 33798, type: ss, cipher: aes-256-gcm, password: z7ern6xRq5tNssfyAmLGbxEH}
+  - {name: MEX 🇲🇽 Mex 10, server: 194.41.112.3, port: 34583, type: ss, cipher: aes-256-gcm, password: hbWeaNJfjeP6GkT7jp6CSSx8}
+  - {name: 🇲🇴 MOLD 🇲🇩 Chsn, server: 178.175.128.235, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇲🇴 MOLD 🇲🇩 Chsn 2, server: 178.175.128.235, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇲🇴 MOLD 🇲🇩 Chsn 3, server: 178.175.128.237, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇲🇴 MOLD 🇲🇩 Chsn 4, server: 178.175.128.237, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇲🇴 MOLD 🇲🇩 Chsn 5, server: 178.175.128.237, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: 🇹🇭 NETH 🇳🇱 Ams, server: 212.102.35.196, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: 🇹🇭 NETH 🇳🇱 Ams 2, server: 185.246.155.173, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7}
+  - {name: 🇹🇭 NETH 🇳🇱 Ams 3, server: 185.246.155.185, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX}
+  - {name: 🇹🇭 NETH 🇳🇱 Ams 4, server: 185.246.155.230, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM}
+  - {name: 🇹🇭 NETH 🇳🇱 Ams 5, server: 185.246.155.239, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU}
+  - {name: 🇹🇭 NETH 🇳🇱 Ams 6, server: 185.246.155.241, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z}
+  - {name: 🇹🇭 NETH 🇳🇱 Ams 7, server: 185.246.155.247, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga}
+  - {name: 🇹🇭 NETH 🇳🇱 Ams 8, server: 185.246.155.249, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga}
+  - {name: NZ 🇳🇿 Auck, server: 154.127.49.232, port: 33615, type: ss, cipher: aes-256-gcm, password: NSRCqbG4ZV7fTrpCyawngBRY}
+  - {name: NZ 🇳🇿 Auck 2, server: 180.149.231.3, port: 33615, type: ss, cipher: aes-256-gcm, password: NSRCqbG4ZV7fTrpCyawngBRY}
+  - {name: NZ 🇳🇿 Auck 3, server: 154.127.49.232, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: NZ 🇳🇿 Auck 4, server: 180.149.231.3, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: NZ 🇳🇿 Auck 5, server: 154.127.49.232, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: NZ 🇳🇿 Auck 6, server: 180.149.231.3, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: NZ 🇳🇿 Auck 7, server: 154.127.49.232, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: NZ 🇳🇿 Auck 8, server: 180.149.231.3, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: NZ 🇳🇿 Auck 9, server: 180.149.231.3, port: 39942, type: ss, cipher: aes-256-gcm, password: ztnC5j7dm82KJSSpe2jk3eWB}
+  - {name: NZ 🇳🇿 Auck 10, server: 154.127.49.232, port: 39942, type: ss, cipher: aes-256-gcm, password: ztnC5j7dm82KJSSpe2jk3eWB}
+  - {name: NZ 🇳🇿 Auck 11, server: 180.149.231.3, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: NZ 🇳🇿 Auck 12, server: 180.149.231.3, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL}
+  - {name: NZ 🇳🇿 Auck 13, server: 180.149.231.3, port: 33798, type: ss, cipher: aes-256-gcm, password: z7ern6xRq5tNssfyAmLGbxEH}
+  - {name: NZ 🇳🇿 Auck 14, server: 180.149.231.3, port: 34583, type: ss, cipher: aes-256-gcm, password: hbWeaNJfjeP6GkT7jp6CSSx8}
+  - {name: NZ 🇳🇿 Auck 15, server: 180.149.231.115, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: NZ 🇳🇿 Auck 16, server: 180.149.231.119, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: NZ 🇳🇿 Auck 17, server: 180.149.231.3, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: NIG 🇳🇬 Lag, server: 102.165.23.42, port: 33615, type: ss, cipher: aes-256-gcm, password: NSRCqbG4ZV7fTrpCyawngBRY}
+  - {name: NIG 🇳🇬 Lag 2, server: 102.165.23.42, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: NIG 🇳🇬 Lag 3, server: 102.165.23.42, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: NIG 🇳🇬 Lag 4, server: 102.165.23.42, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: NIG 🇳🇬 Lag 5, server: 102.165.23.42, port: 39942, type: ss, cipher: aes-256-gcm, password: ztnC5j7dm82KJSSpe2jk3eWB}
+  - {name: NIG 🇳🇬 Lag 6, server: 102.165.23.42, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: NIG 🇳🇬 Lag 7, server: 102.165.23.42, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: NIG 🇳🇬 Lags, server: 102.165.23.42, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL}
+  - {name: NIG 🇳🇬 Lags 2, server: 102.165.23.42, port: 33798, type: ss, cipher: aes-256-gcm, password: z7ern6xRq5tNssfyAmLGbxEH}
+  - {name: NIG 🇳🇬 Lags 3, server: 102.165.23.42, port: 34583, type: ss, cipher: aes-256-gcm, password: hbWeaNJfjeP6GkT7jp6CSSx8}
+  - {name: NORW 🇳🇴 Osl, server: 84.247.50.27, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: NORW 🇳🇴 Osl 2, server: 84.247.50.29, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: NORW 🇳🇴 Osl 3, server: 45.12.223.197, port: 34583, type: ss, cipher: aes-256-gcm, password: hbWeaNJfjeP6GkT7jp6CSSx8}
+  - {name: NORW 🇳🇴 Osl 4, server: 45.12.223.197, port: 39091, type: ss, cipher: aes-256-gcm, password: U5DZwKHsFQEHaKzPL67QTd6h}
+  - {name: NORW 🇳🇴 Osl 5, server: 45.12.223.67, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: 🇦🇷 PAR 🇵🇾 Asu, server: 186.16.32.173, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: 🇦🇷 PAR 🇵🇾 Asu 2, server: 186.16.32.173, port: 33798, type: ss, cipher: aes-256-gcm, password: z7ern6xRq5tNssfyAmLGbxEH}
+  - {name: 🇦🇷 PAR 🇵🇾 Asn, server: 181.40.18.47, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇦🇷 PAR 🇵🇾 Asn 2, server: 181.40.18.59, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇦🇷 PAR 🇵🇾 Fern, server: 186.16.32.173, port: 33615, type: ss, cipher: aes-256-gcm, password: NSRCqbG4ZV7fTrpCyawngBRY}
+  - {name: 🇦🇷 PAR 🇵🇾 Fern 2, server: 186.16.32.173, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇦🇷 PAR 🇵🇾 Fern 3, server: 186.16.32.173, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇦🇷 PAR 🇵🇾 Fern 4, server: 186.16.32.173, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: 🇦🇷 PAR 🇵🇾 Fern 5, server: 186.16.32.173, port: 39942, type: ss, cipher: aes-256-gcm, password: ztnC5j7dm82KJSSpe2jk3eWB}
+  - {name: 🇦🇷 PAR 🇵🇾 Fern 6, server: 186.16.32.173, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇦🇷 PAR 🇵🇾 Fern 7, server: 186.16.32.173, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL}
+  - {name: 🇦🇷 PAR 🇵🇾 Fern 8, server: 186.16.32.173, port: 34583, type: ss, cipher: aes-256-gcm, password: hbWeaNJfjeP6GkT7jp6CSSx8}
+  - {name: 🇵🇭 PHIL 🇵🇭 Mak, server: 42.0.30.211, port: 33615, type: ss, cipher: aes-256-gcm, password: NSRCqbG4ZV7fTrpCyawngBRY}
+  - {name: 🇵🇭 PHIL 🇵🇭 Mak 2, server: 42.0.30.211, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇵🇭 PHIL 🇵🇭 Mak 3, server: 42.0.30.211, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇵🇭 PHIL 🇵🇭 Mak 4, server: 42.0.30.211, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: 🇵🇭 PHIL 🇵🇭 Mak 5, server: 42.0.30.211, port: 39942, type: ss, cipher: aes-256-gcm, password: ztnC5j7dm82KJSSpe2jk3eWB}
+  - {name: 🇵🇭 PHIL 🇵🇭 Mak 6, server: 42.0.30.211, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇵🇭 PHIL 🇵🇭 Kul, server: 42.0.30.211, port: 33798, type: ss, cipher: aes-256-gcm, password: z7ern6xRq5tNssfyAmLGbxEH}
+  - {name: 🇵🇭 PHIL 🇵🇭 Mkt, server: 42.0.30.164, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇵🇭 PHIL 🇵🇭 Mkt 2, server: 42.0.30.209, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇵🇭 PHIL 🇵🇭 Mak 7, server: 42.0.30.211, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL}
+  - {name: 🇵🇭 PHIL 🇵🇭 Mak 8, server: 42.0.30.211, port: 34583, type: ss, cipher: aes-256-gcm, password: hbWeaNJfjeP6GkT7jp6CSSx8}
+  - {name: 🇵🇭 PHIL 🇵🇭Mnl, server: 45.134.224.13, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: POL 🇵🇱 War, server: 5.187.53.53, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: POL 🇵🇱 War 2, server: 5.187.53.55, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: POL 🇵🇱 War 3, server: 5.253.206.229, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: POL 🇵🇱 War 4, server: 185.246.208.176, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: POL 🇵🇱 War 5, server: 185.246.208.182, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: POR 🇵🇹 Faro, server: 176.61.146.106, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: POR 🇵🇹 Lisb, server: 5.154.174.77, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: POR 🇵🇹 Lisb 2, server: 185.108.106.140, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: POR 🇵🇹 Lisb 3, server: 185.108.106.150, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: POR 🇵🇹 Lisb 4, server: 185.174.159.67, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: POR 🇵🇹 Lisb 5, server: 194.39.127.231, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: POR 🇵🇹 Lisb 6, server: 194.39.127.242, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: POR 🇵🇹 Lisb 7, server: 194.39.127.244, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇷🇴 ROM 🇷🇴 Buck, server: 45.89.175.51, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: 🇷🇴 ROM 🇷🇴 Buck 2, server: 5.154.174.213, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇷🇴 ROM 🇷🇴 Buck 3, server: 5.154.174.219, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇷🇴 ROM 🇷🇴 Buck 4, server: 37.120.217.181, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: 🇷🇴 ROM 🇷🇴 Buck 5, server: 45.89.175.51, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇷🇴 ROM 🇷🇴 Buck 6, server: 45.89.175.55, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇷🇴 ROM 🇷🇴 Buck 7, server: 62.216.72.147, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq}
+  - {name: 🇷🇴 ROM 🇷🇴 Buck 8, server: 62.216.74.5, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ}
+  - {name: 🇷🇴 ROM 🇷🇴 Buck 9, server: 62.216.74.50, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ}
+  - {name: 🇷🇴 ROM 🇷🇴 Buck 10, server: 86.106.137.147, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇷🇺 RUS 🇷🇺 Mos, server: 45.132.19.193, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB}
+  - {name: 🇷🇺 RUS 🇷🇺 Mos 2, server: 45.141.101.242, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB}
+  - {name: 🇷🇺 RUS 🇷🇺 Mos 3, server: 45.141.101.242, port: 29993, type: ss, cipher: xchacha20-ietf-poly1305, password: t.cn/EGJIyrl}
+  - {name: 🇷🇺 RUS 🇷🇺 Mos 4, server: 193.38.50.92, port: 80, type: ss, cipher: aes-256-cfb, password: jik198863}
+  - {name: 🇷🇺 RUS 🇷🇺 Mos 5, server: 194.87.111.106, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB}
+  - {name: 🇷🇺 RUS 🇷🇺 Mos 6, server: 195.133.147.222, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB}
+  - {name: 🇷🇺 RUS 🇷🇺 Mos 7, server: 195.133.147.222, port: 29993, type: ss, cipher: xchacha20-ietf-poly1305, password: t.cn/EGJIyrl}
+  - {name: 🇷🇺 RUS 🇷🇺 Mos 8, server: 213.183.41.38, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8}
+  - {name: 🇷🇺 RUS 🇷🇺 Mos 9, server: 213.183.41.41, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4}
+  - {name: 🇷🇺 RUS 🇷🇺 Mos 10, server: 213.183.53.227, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU}
+  - {name: 🇷🇺 RUS 🇷🇺 Spt, server: 213.183.54.165, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: 🇸🇪 SERB 🇷🇸 Blgr, server: 152.89.160.211, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: 🇸🇪 SERB 🇷🇸 Blgr 2, server: 152.89.160.211, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇸🇪 SERB 🇷🇸 Blgr 3, server: 152.89.160.211, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: SING 🇸🇬 Sng, server: 89.187.163.215, port: 33615, type: ss, cipher: aes-256-gcm, password: NSRCqbG4ZV7fTrpCyawngBRY}
+  - {name: SING 🇸🇬 Sng 2, server: 89.187.163.215, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: SING 🇸🇬 Sng 3, server: 89.187.163.215, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: SING 🇸🇬 Sng 4, server: 89.187.163.215, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: SING 🇸🇬 Sng 5, server: 89.187.163.215, port: 39942, type: ss, cipher: aes-256-gcm, password: ztnC5j7dm82KJSSpe2jk3eWB}
+  - {name: SING 🇸🇬 Sng 6, server: 89.187.163.215, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: SING 🇸🇬 Sing, server: 89.187.163.197, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: SING 🇸🇬 Sing 2, server: 89.187.163.215, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL}
+  - {name: SING 🇸🇬 Sing 3, server: 89.187.163.215, port: 33798, type: ss, cipher: aes-256-gcm, password: z7ern6xRq5tNssfyAmLGbxEH}
+  - {name: SING 🇸🇬 Sing 4, server: 89.187.163.215, port: 34583, type: ss, cipher: aes-256-gcm, password: hbWeaNJfjeP6GkT7jp6CSSx8}
+  - {name: SING 🇸🇬 Sing 5, server: 103.114.163.4, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX}
+  - {name: SING 🇸🇬 Sing 6, server: 103.114.163.13, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu}
+  - {name: SING 🇸🇬 Sing 7, server: 156.146.56.137, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: SLVA 🇸🇰 Brts, server: 37.120.221.3, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: SLVA 🇸🇰 Brts 2, server: 37.120.221.5, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: SLVA 🇸🇰 Brts 3, server: 37.120.221.5, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: SLVE 🇸🇮 Ljbl, server: 195.158.249.50, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: SLVE 🇸🇮 Ljbl 2, server: 195.158.249.38, port: 34583, type: ss, cipher: aes-256-gcm, password: hbWeaNJfjeP6GkT7jp6CSSx8}
+  - {name: SLVE 🇸🇮 Ljbl 3, server: 195.158.249.42, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: SLVE 🇸🇮 Ljbl 4, server: 195.158.249.50, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: S-AF 🇿🇦 Gaut, server: 154.127.49.228, port: 33615, type: ss, cipher: aes-256-gcm, password: NSRCqbG4ZV7fTrpCyawngBRY}
+  - {name: S-AF 🇿🇦 Gaut 2, server: 154.127.49.228, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: S-AF 🇿🇦 Gaut 3, server: 154.127.49.228, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: S-AF 🇿🇦 Gaut 4, server: 154.127.49.228, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: S-AF 🇿🇦 Gaut 5, server: 154.127.49.228, port: 39942, type: ss, cipher: aes-256-gcm, password: ztnC5j7dm82KJSSpe2jk3eWB}
+  - {name: 🇨🇳 S-AF 🇿🇦 CpTw, server: 154.127.49.228, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇨🇳 S-AF 🇿🇦 CpTw 2, server: 154.127.49.230, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: S-AF 🇿🇦 Gaut 6, server: 154.127.49.228, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: S-AF 🇿🇦 Gaut 7, server: 154.127.49.228, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL}
+  - {name: S-AF 🇿🇦 Gaut 8, server: 154.127.49.228, port: 33798, type: ss, cipher: aes-256-gcm, password: z7ern6xRq5tNssfyAmLGbxEH}
+  - {name: S-AF 🇿🇦 Gaut 9, server: 154.127.49.228, port: 34583, type: ss, cipher: aes-256-gcm, password: hbWeaNJfjeP6GkT7jp6CSSx8}
+  - {name: S-AF 🇿🇦 Gaut 10, server: 154.127.49.232, port: 33798, type: ss, cipher: aes-256-gcm, password: z7ern6xRq5tNssfyAmLGbxEH}
+  - {name: S-AF 🇿🇦 Gaut 11, server: 154.127.49.232, port: 34583, type: ss, cipher: aes-256-gcm, password: hbWeaNJfjeP6GkT7jp6CSSx8}
+  - {name: S-AF 🇿🇦 Juh, server: 154.127.49.232, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL}
+  - {name: S-AF 🇿🇦 Juh 2, server: 154.127.49.232, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: S-AF 🇿🇦Jnb, server: 154.127.49.230, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: SPA 🇪🇸 Barc, server: 37.120.142.131, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: SPN 🇪🇸 Barc, server: 37.120.142.181, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: SPN 🇪🇸 Barc 2, server: 185.188.61.27, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: SPN 🇪🇸 Mad, server: 212.102.48.2, port: 33615, type: ss, cipher: aes-256-gcm, password: NSRCqbG4ZV7fTrpCyawngBRY}
+  - {name: SPN 🇪🇸 Mad 2, server: 212.102.48.2, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: SPN 🇪🇸 Mad 3, server: 212.102.48.2, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: SPN 🇪🇸 Mad 4, server: 212.102.48.2, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: SPN 🇪🇸 Mad 5, server: 212.102.48.2, port: 39942, type: ss, cipher: aes-256-gcm, password: ztnC5j7dm82KJSSpe2jk3eWB}
+  - {name: SPN 🇪🇸 Mad 6, server: 212.102.48.2, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: SPN 🇪🇸 Madr, server: 196.196.150.67, port: 39091, type: ss, cipher: aes-256-gcm, password: U5DZwKHsFQEHaKzPL67QTd6h}
+  - {name: SPN 🇪🇸 Madr 2, server: 196.196.150.85, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: SPN 🇪🇸 Madr 3, server: 212.102.48.2, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL}
+  - {name: SPN 🇪🇸 Madr 4, server: 212.102.48.2, port: 33798, type: ss, cipher: aes-256-gcm, password: z7ern6xRq5tNssfyAmLGbxEH}
+  - {name: SPN 🇪🇸 Madr 5, server: 212.102.48.2, port: 34583, type: ss, cipher: aes-256-gcm, password: hbWeaNJfjeP6GkT7jp6CSSx8}
+  - {name: SPN 🇪🇸 Madr 6, server: 212.102.48.13, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: SPN 🇪🇸 Valn, server: 185.153.150.46, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: SPN 🇪🇸 Valn 2, server: 185.153.150.54, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: SWD 🇸🇪 Stok, server: 185.76.9.36, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: SWD 🇸🇪 Stok 2, server: 185.76.9.44, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: SWI 🇨🇭 Zur, server: 84.17.53.210, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: SWI 🇨🇭 Zur 2, server: 84.17.53.223, port: 33615, type: ss, cipher: aes-256-gcm, password: NSRCqbG4ZV7fTrpCyawngBRY}
+  - {name: SWI 🇨🇭 Zur 3, server: 84.17.53.223, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: SWI 🇨🇭 Zur 4, server: 84.17.53.223, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: SWI 🇨🇭 Zur 5, server: 84.17.53.208, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: SWI 🇨🇭 Zur 6, server: 84.17.53.223, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: SWI 🇨🇭 Zur 7, server: 84.17.53.208, port: 39942, type: ss, cipher: aes-256-gcm, password: ztnC5j7dm82KJSSpe2jk3eWB}
+  - {name: SWI 🇨🇭 Zur 8, server: 84.17.53.223, port: 39942, type: ss, cipher: aes-256-gcm, password: ztnC5j7dm82KJSSpe2jk3eWB}
+  - {name: SWI 🇨🇭 Zur 9, server: 84.17.53.208, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: SWI 🇨🇭 Zur 10, server: 84.17.53.223, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: SWI 🇨🇭 Zur 11, server: 84.17.53.208, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: SWI 🇨🇭 Zur 12, server: 84.17.53.208, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: SWI 🇨🇭 Zur 13, server: 84.17.53.208, port: 33615, type: ss, cipher: aes-256-gcm, password: NSRCqbG4ZV7fTrpCyawngBRY}
+  - {name: SWI 🇨🇭 Zur 14, server: 45.134.17.165, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn}
+  - {name: SWI 🇨🇭 Zur 15, server: 84.17.53.208, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL}
+  - {name: SWI 🇨🇭 Zur 16, server: 84.17.53.208, port: 33798, type: ss, cipher: aes-256-gcm, password: z7ern6xRq5tNssfyAmLGbxEH}
+  - {name: SWI 🇨🇭 Zur 17, server: 84.17.53.208, port: 39091, type: ss, cipher: aes-256-gcm, password: U5DZwKHsFQEHaKzPL67QTd6h}
+  - {name: SWI 🇨🇭 Zur 18, server: 84.17.53.208, port: 34583, type: ss, cipher: aes-256-gcm, password: hbWeaNJfjeP6GkT7jp6CSSx8}
+  - {name: SWI 🇨🇭 Zur 19, server: 84.17.53.210, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: SWI 🇨🇭 Zur 20, server: 84.17.53.223, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL}
+  - {name: SWI 🇨🇭 Zur 21, server: 84.17.53.223, port: 33798, type: ss, cipher: aes-256-gcm, password: z7ern6xRq5tNssfyAmLGbxEH}
+  - {name: SWI 🇨🇭 Zur 22, server: 84.17.53.223, port: 34583, type: ss, cipher: aes-256-gcm, password: hbWeaNJfjeP6GkT7jp6CSSx8}
+  - {name: SWI 🇨🇭 Zur 23, server: 84.17.53.223, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: SWI 🇨🇭 Zur 24, server: 193.38.137.174, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY}
+  - {name: SWI 🇨🇭 Zur 25, server: 37.120.213.5, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: 🇨🇳 TW 🇹🇼 Tai, server: 2.58.241.27, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: 🇨🇳 TW 🇹🇼 Tai 2, server: 103.98.75.71, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇹🇭 THIL 🇹🇭 Bank, server: 45.64.186.132, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: TAIL 🇹🇭 Bank, server: 45.64.186.132, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: TAIL 🇹🇭 Bank 2, server: 45.64.186.134, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: TUR 🇹🇷 Bur, server: 185.195.79.5, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: TUR 🇹🇷 Bur 2, server: 185.195.79.5, port: 33615, type: ss, cipher: aes-256-gcm, password: NSRCqbG4ZV7fTrpCyawngBRY}
+  - {name: TUR 🇹🇷 Bur 3, server: 185.195.79.5, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: TUR 🇹🇷 Bur 4, server: 185.195.79.5, port: 39942, type: ss, cipher: aes-256-gcm, password: ztnC5j7dm82KJSSpe2jk3eWB}
+  - {name: TUR 🇹🇷 Bur 5, server: 185.195.79.5, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: TUR 🇹🇷 Bur 6, server: 185.195.79.5, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL}
+  - {name: TUR 🇹🇷 Burs, server: 45.123.119.56, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: TUR 🇹🇷 Burs 2, server: 185.195.79.5, port: 33798, type: ss, cipher: aes-256-gcm, password: z7ern6xRq5tNssfyAmLGbxEH}
+  - {name: TUR 🇹🇷 Burs 3, server: 185.195.79.5, port: 34583, type: ss, cipher: aes-256-gcm, password: hbWeaNJfjeP6GkT7jp6CSSx8}
+  - {name: TUR 🇹🇷 Ist, server: 107.150.95.165, port: 33615, type: ss, cipher: aes-256-gcm, password: NSRCqbG4ZV7fTrpCyawngBRY}
+  - {name: TUR 🇹🇷 Ist 2, server: 107.150.95.165, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: TUR 🇹🇷 Ist 3, server: 107.150.95.165, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: TUR 🇹🇷 Bur 7, server: 185.195.79.5, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: TUR 🇹🇷 Bur 8, server: 185.195.79.5, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: TUR 🇹🇷 Ist 4, server: 107.150.95.165, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: TUR 🇹🇷 Ist 5, server: 107.150.95.165, port: 39942, type: ss, cipher: aes-256-gcm, password: ztnC5j7dm82KJSSpe2jk3eWB}
+  - {name: TUR 🇹🇷 Ist 6, server: 107.150.95.165, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: TUR 🇹🇷 Pamk, server: 185.195.79.3, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: TUR 🇹🇷 Pamk 2, server: 185.195.79.3, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: TUR 🇹🇷 Pamk 3, server: 185.195.79.5, port: 39091, type: ss, cipher: aes-256-gcm, password: U5DZwKHsFQEHaKzPL67QTd6h}
+  - {name: TUR 🇹🇷 Pamk 4, server: 185.195.79.21, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇭🇰 TUR 🇹🇲 Ashk, server: 176.119.156.229, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB}
+  - {name: 🇭🇰 TUR 🇹🇲 Ashk 2, server: 176.119.158.161, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB}
+  - {name: 🇭🇰 TUR 🇹🇲 Ashk 3, server: 176.119.158.161, port: 29993, type: ss, cipher: xchacha20-ietf-poly1305, password: t.cn/EGJIyrl}
+  - {name: 🇭🇰 TUR 🇹🇲 Ashk 4, server: 176.119.156.229, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB}
+  - {name: 🇭🇰 TUR 🇹🇲 Ashk 5, server: 176.119.156.229, port: 29993, type: ss, cipher: xchacha20-ietf-poly1305, password: t.cn/EGJIyrl}
+  - {name: 🇹🇷 TRKM 🇧🇦Ashg, server: 185.164.34.250, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: UAE 🇦🇪 Dub, server: 5.226.139.65, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: UAE 🇦🇪 Dub 2, server: 45.9.250.103, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: UAE 🇦🇪 Dub 3, server: 45.9.249.243, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: UAE 🇦🇪 Dub 4, server: 45.9.249.243, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: UAE 🇦🇪 Dub 5, server: 45.9.249.245, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: UAE 🇦🇪 Dub 6, server: 45.9.249.247, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: UAE 🇦🇪 Dub 7, server: 45.9.250.101, port: 33146, type: ss, cipher: aes-256-gcm, password: wPWXCKvF8McZHGgZKF89AHXK}
+  - {name: UAE 🇦🇪 Dub 8, server: 45.9.250.101, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: UAE 🇦🇪 Dub 9, server: 45.9.250.101, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: UAE 🇦🇪 Dub 10, server: 204.12.208.115, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: UAE 🇦🇪 Sharj, server: 176.227.241.19, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: UAE 🇦🇪 Sharj 2, server: 176.227.241.21, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: UAE 🇦🇪 Shar, server: 176.227.241.19, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇬🇧 UK 🇬🇧 Leds, server: 45.90.140.104, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq}
+  - {name: 🇬🇧 UK 🇬🇧 Leds 2, server: 185.195.202.197, port: 33146, type: ss, cipher: aes-256-gcm, password: wPWXCKvF8McZHGgZKF89AHXK}
+  - {name: 🇬🇧 UK 🇬🇧 Lon, server: 178.239.166.231, port: 33615, type: ss, cipher: aes-256-gcm, password: NSRCqbG4ZV7fTrpCyawngBRY}
+  - {name: 🇬🇧 UK 🇬🇧 Lon 2, server: 178.239.166.231, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇬🇧 UK 🇬🇧 Lon 3, server: 178.239.166.231, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: 🇬🇧 UK 🇬🇧 Lon 4, server: 178.239.166.231, port: 39942, type: ss, cipher: aes-256-gcm, password: ztnC5j7dm82KJSSpe2jk3eWB}
+  - {name: 🇬🇧 UK 🇬🇧 Lon 5, server: 178.239.166.231, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇬🇧 UK 🇬🇧 Lon 6, server: 81.19.208.102, port: 39091, type: ss, cipher: aes-256-gcm, password: U5DZwKHsFQEHaKzPL67QTd6h}
+  - {name: 🇬🇧 UK 🇬🇧 Lon 7, server: 178.239.166.231, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL}
+  - {name: 🇬🇧 UK 🇬🇧 Lon 8, server: 178.239.166.231, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇬🇧 UK 🇬🇧 Lon 9, server: 178.239.166.231, port: 33798, type: ss, cipher: aes-256-gcm, password: z7ern6xRq5tNssfyAmLGbxEH}
+  - {name: 🇬🇧 UK 🇬🇧 Man, server: 89.238.140.229, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇬🇧 UK 🇬🇧 Man 2, server: 89.238.140.229, port: 33615, type: ss, cipher: aes-256-gcm, password: NSRCqbG4ZV7fTrpCyawngBRY}
+  - {name: 🇬🇧 UK 🇬🇧 Man 3, server: 89.238.140.229, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇬🇧 UK 🇬🇧 Man 4, server: 89.238.140.229, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: 🇬🇧 UK 🇬🇧 Man 5, server: 89.238.140.229, port: 39942, type: ss, cipher: aes-256-gcm, password: ztnC5j7dm82KJSSpe2jk3eWB}
+  - {name: 🇬🇧 UK 🇬🇧 Man 6, server: 89.238.140.229, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇬🇧 UK 🇬🇧 Lon 10, server: 178.239.166.231, port: 34583, type: ss, cipher: aes-256-gcm, password: hbWeaNJfjeP6GkT7jp6CSSx8}
+  - {name: 🇬🇧 UK 🇬🇧 Lon 11, server: 185.16.206.75, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇬🇧 UK 🇬🇧 Lon 12, server: 185.44.76.172, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇬🇧 UK 🇬🇧 Lon 13, server: 185.59.222.94, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇬🇧 UK 🇬🇧 Lon 14, server: 185.108.105.3, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇬🇧 UK 🇬🇧 Lon 15, server: 185.108.105.35, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇬🇧 UK 🇬🇧 Lon 16, server: 185.108.105.18, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇬🇧 UK 🇬🇧 Lon 17, server: 185.200.118.134, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇬🇧 UK 🇬🇧 Lon 18, server: 185.200.118.134, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇬🇧 UK 🇬🇧 Man 7, server: 86.106.136.83, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇬🇧 UK 🇬🇧 Man 8, server: 86.106.136.85, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇬🇧 UK 🇬🇧 Man 9, server: 89.238.140.229, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL}
+  - {name: 🇬🇧 UK 🇬🇧 Man 10, server: 89.238.140.229, port: 33798, type: ss, cipher: aes-256-gcm, password: z7ern6xRq5tNssfyAmLGbxEH}
+  - {name: 🇬🇧 UK 🇬🇧 Man 11, server: 89.238.140.229, port: 34583, type: ss, cipher: aes-256-gcm, password: hbWeaNJfjeP6GkT7jp6CSSx8}
+  - {name: 🇬🇧 UK 🇬🇧 Wlvr, server: 212.84.169.78, port: 8099, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D}
+  - {name: 🇬🇧 UKR 🇺🇦 Iev, server: 45.9.238.38, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: 🇬🇧 UKR 🇺🇦 Iev 2, server: 45.9.238.30, port: 33615, type: ss, cipher: aes-256-gcm, password: NSRCqbG4ZV7fTrpCyawngBRY}
+  - {name: 🇬🇧 UKR 🇺🇦 Iev 3, server: 45.9.238.30, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇬🇧 UKR 🇺🇦 Iev 4, server: 45.9.238.30, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇬🇧 UKR 🇺🇦 Iev 5, server: 45.9.238.30, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: 🇬🇧 UKR 🇺🇦 Iev 6, server: 45.9.238.30, port: 39942, type: ss, cipher: aes-256-gcm, password: ztnC5j7dm82KJSSpe2jk3eWB}
+  - {name: 🇬🇧 UKR 🇺🇦 Iev 7, server: 45.9.238.30, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇬🇧 UKR 🇺🇦 Kyv, server: 45.9.238.38, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇬🇧 UKR 🇺🇦 Kyv 2, server: 45.9.238.47, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇬🇧 UKR 🇺🇦 Kyv 3, server: 45.9.238.47, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇬🇧 UKR 🇺🇦 Dnip, server: 51.195.62.218, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇬🇧 UKR 🇺🇦 Dnip 2, server: 51.195.62.222, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇬🇧 UKR 🇺🇦 Dnip 3, server: 51.195.62.220, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇬🇧 UKR 🇺🇦 Dnip 4, server: 51.195.62.219, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇬🇧 UKR 🇺🇦 Dnip 5, server: 51.195.63.224, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇬🇧 UKR 🇺🇦 Kyv 4, server: 45.9.238.38, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: 🇬🇧 UKR 🇺🇦 Kyv 5, server: 45.9.238.38, port: 39091, type: ss, cipher: aes-256-gcm, password: U5DZwKHsFQEHaKzPL67QTd6h}
+  - {name: 🇬🇧 UKR 🇺🇦 Iev 8, server: 45.9.238.30, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL}
+  - {name: 🇬🇧 UKR 🇺🇦 Iev 9, server: 45.9.238.30, port: 33798, type: ss, cipher: aes-256-gcm, password: z7ern6xRq5tNssfyAmLGbxEH}
+  - {name: 🇬🇧 UKR 🇺🇦 Iev 10, server: 45.9.238.30, port: 34583, type: ss, cipher: aes-256-gcm, password: hbWeaNJfjeP6GkT7jp6CSSx8}
+  - {name: 🇺🇸 USA 🇺🇲 Atl, server: 66.115.175.35, port: 33798, type: ss, cipher: aes-256-gcm, password: z7ern6xRq5tNssfyAmLGbxEH}
+  - {name: 🇺🇸 USA 🇺🇲 Atl 2, server: 66.115.175.35, port: 34583, type: ss, cipher: aes-256-gcm, password: hbWeaNJfjeP6GkT7jp6CSSx8}
+  - {name: 🇺🇸 USA 🇺🇲 Bos, server: 173.237.207.30, port: 33798, type: ss, cipher: aes-256-gcm, password: z7ern6xRq5tNssfyAmLGbxEH}
+  - {name: 🇺🇸 USA 🇺🇲 Bos 2, server: 173.237.207.30, port: 34583, type: ss, cipher: aes-256-gcm, password: hbWeaNJfjeP6GkT7jp6CSSx8}
+  - {name: 🇺🇸 USA 🇺🇲 Bdn, server: 45.43.14.75, port: 33798, type: ss, cipher: aes-256-gcm, password: z7ern6xRq5tNssfyAmLGbxEH}
+  - {name: 🇺🇸 USA 🇺🇲 Bdn 2, server: 45.43.14.75, port: 34583, type: ss, cipher: aes-256-gcm, password: hbWeaNJfjeP6GkT7jp6CSSx8}
+  - {name: 🇺🇸 USA 🇺🇲 Buf, server: 107.175.104.86, port: 33798, type: ss, cipher: aes-256-gcm, password: z7ern6xRq5tNssfyAmLGbxEH}
+  - {name: 🇺🇸 USA 🇺🇲 Buf 2, server: 107.175.104.86, port: 34583, type: ss, cipher: aes-256-gcm, password: hbWeaNJfjeP6GkT7jp6CSSx8}
+  - {name: 🇺🇸 USA 🇺🇲 Buf 3, server: 172.93.153.150, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: 🇺🇸 USA 🇺🇲 Cal, server: 45.129.32.8, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL}
+  - {name: 🇺🇸 USA 🇺🇲 Cal 2, server: 45.129.32.8, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇺🇸 USA 🇺🇲 Cali, server: 45.129.32.8, port: 33798, type: ss, cipher: aes-256-gcm, password: z7ern6xRq5tNssfyAmLGbxEH}
+  - {name: 🇺🇸 USA 🇺🇲 Cali 2, server: 45.129.32.8, port: 34583, type: ss, cipher: aes-256-gcm, password: hbWeaNJfjeP6GkT7jp6CSSx8}
+  - {name: 🇺🇸 USA 🇺🇲 Cali, server: 45.151.175.127, port: 80, type: ss, cipher: aes-256-cfb, password: jik198863}
+  - {name: 🇺🇸 USA 🇺🇸 Cali, server: 66.115.177.136, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇺🇸 USA 🇺🇲 Cali 2, server: 162.253.71.211, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: 🇺🇸 USA 🇺🇲 Cali 3, server: 198.52.125.212, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB}
+  - {name: 🇺🇸 USA 🇺🇲 Clt, server: 66.11.124.140, port: 33798, type: ss, cipher: aes-256-gcm, password: z7ern6xRq5tNssfyAmLGbxEH}
+  - {name: 🇺🇸 USA 🇺🇲 Clt 2, server: 66.11.124.140, port: 34583, type: ss, cipher: aes-256-gcm, password: hbWeaNJfjeP6GkT7jp6CSSx8}
+  - {name: 🇺🇸 USA 🇺🇲 Delaw, server: 45.82.255.176, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM}
+  - {name: 🇺🇸 USA 🇺🇲 Delaw 2, server: 45.82.255.178, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM}
+  - {name: 🇺🇸 USA 🇺🇲 Delaw 3, server: 45.82.255.217, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu}
+  - {name: 🇺🇸 USA 🇺🇲 Den, server: 174.128.245.147, port: 33798, type: ss, cipher: aes-256-gcm, password: z7ern6xRq5tNssfyAmLGbxEH}
+  - {name: 🇺🇸 USA 🇺🇲 Den 2, server: 174.128.245.147, port: 34583, type: ss, cipher: aes-256-gcm, password: hbWeaNJfjeP6GkT7jp6CSSx8}
+  - {name: 🇺🇸 USA 🇺🇲 Dtw, server: 104.244.208.227, port: 33798, type: ss, cipher: aes-256-gcm, password: z7ern6xRq5tNssfyAmLGbxEH}
+  - {name: 🇺🇸 USA 🇺🇲 Dtw 2, server: 104.244.208.227, port: 34583, type: ss, cipher: aes-256-gcm, password: hbWeaNJfjeP6GkT7jp6CSSx8}
+  - {name: 🇺🇸 USA 🇺🇸 Flor, server: 172.83.42.85, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇺🇸 USA 🇺🇸 Flor 2, server: 172.83.42.158, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇺🇸 USA 🇺🇲 Flor, server: 185.93.0.143, port: 33146, type: ss, cipher: aes-256-gcm, password: wPWXCKvF8McZHGgZKF89AHXK}
+  - {name: 🇺🇸 USA 🇺🇸 Flor 3, server: 198.147.22.167, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇺🇸 USA 🇺🇸 Flor 4, server: 198.147.22.195, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇺🇸 USA 🇺🇸 Flor 5, server: 209.216.92.210, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇺🇸 USA 🇺🇸 Flor 6, server: 209.216.92.217, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇺🇸 USA 🇺🇲 Gorj, server: 172.83.40.149, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: 🇺🇸 USA 🇺🇸 Gorj, server: 184.170.243.195, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇺🇸 USA 🇺🇸 Gorj 2, server: 184.170.243.211, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇺🇸 USA 🇺🇸 Gorj 3, server: 199.58.187.69, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇺🇸 USA 🇺🇸 Gorj 4, server: 199.229.250.163, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇺🇸 USA 🇺🇲 Gorj, server: 212.102.42.199, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇺🇸 USA 🇺🇸 Gorj 5, server: 212.102.44.68, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇺🇸 USA 🇺🇸 Gorj 6, server: 212.102.44.83, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇺🇸 USA 🇺🇲 Hou, server: 104.148.30.35, port: 33798, type: ss, cipher: aes-256-gcm, password: z7ern6xRq5tNssfyAmLGbxEH}
+  - {name: 🇺🇸 USA 🇺🇲 Hou 2, server: 104.148.30.35, port: 34583, type: ss, cipher: aes-256-gcm, password: hbWeaNJfjeP6GkT7jp6CSSx8}
+  - {name: 🇺🇸 USA 🇺🇲 Kan, server: 63.141.236.243, port: 33798, type: ss, cipher: aes-256-gcm, password: z7ern6xRq5tNssfyAmLGbxEH}
+  - {name: 🇺🇸 USA 🇺🇲 Kan 2, server: 63.141.236.243, port: 34583, type: ss, cipher: aes-256-gcm, password: hbWeaNJfjeP6GkT7jp6CSSx8}
+  - {name: 🇺🇸 USA 🇺🇲  Kent, server: 66.115.175.47, port: 39091, type: ss, cipher: aes-256-gcm, password: U5DZwKHsFQEHaKzPL67QTd6h}
+  - {name: 🇺🇸 USA 🇺🇲 Kentk, server: 66.115.147.94, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇺🇸 USA 🇺🇲 Kentk 2, server: 66.115.147.87, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇺🇸 USA 🇺🇸 Ilin, server: 74.119.146.131, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇺🇸 USA 🇺🇸 Ilin 2, server: 74.119.146.183, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇺🇸 USA 🇺🇲 Ilin, server: 192.240.99.182, port: 8097, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D}
+  - {name: 🇺🇸 USA 🇺🇸 Ilin 3, server: 192.240.99.182, port: 8099, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D}
+  - {name: 🇺🇸 USA 🇺🇸 Ilin 4, server: 192.240.123.26, port: 8097, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D}
+  - {name: 🇺🇸 USA 🇺🇲 Las, server: 89.187.187.149, port: 33798, type: ss, cipher: aes-256-gcm, password: z7ern6xRq5tNssfyAmLGbxEH}
+  - {name: 🇺🇸 USA 🇺🇲 Las 2, server: 89.187.187.149, port: 34583, type: ss, cipher: aes-256-gcm, password: hbWeaNJfjeP6GkT7jp6CSSx8}
+  - {name: 🇺🇸 USA 🇺🇸 Lexi, server: 66.115.154.133, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇺🇸 USA 🇺🇲 Los, server: 89.187.187.76, port: 33798, type: ss, cipher: aes-256-gcm, password: z7ern6xRq5tNssfyAmLGbxEH}
+  - {name: 🇺🇸 USA 🇺🇲 Los, server: 162.253.71.211, port: 33798, type: ss, cipher: aes-256-gcm, password: z7ern6xRq5tNssfyAmLGbxEH}
+  - {name: 🇺🇸 USA 🇺🇲 Los 2, server: 89.187.187.76, port: 34583, type: ss, cipher: aes-256-gcm, password: hbWeaNJfjeP6GkT7jp6CSSx8}
+  - {name: 🇺🇸 USA 🇺🇲 Ltm, server: 45.43.19.68, port: 33798, type: ss, cipher: aes-256-gcm, password: z7ern6xRq5tNssfyAmLGbxEH}
+  - {name: 🇺🇸 USA 🇺🇲 Ltm 2, server: 45.43.19.68, port: 34583, type: ss, cipher: aes-256-gcm, password: hbWeaNJfjeP6GkT7jp6CSSx8}
+  - {name: 🇺🇸 USA 🇺🇲 Mia, server: 89.187.173.201, port: 33798, type: ss, cipher: aes-256-gcm, password: z7ern6xRq5tNssfyAmLGbxEH}
+  - {name: 🇺🇸 USA 🇺🇲 Mia 2, server: 89.187.173.201, port: 34583, type: ss, cipher: aes-256-gcm, password: hbWeaNJfjeP6GkT7jp6CSSx8}
+  - {name: 🇺🇸 USA 🇺🇸 Mia, server: 185.93.0.146, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇺🇸 USA 🇺🇸 Mich, server: 104.244.208.37, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇺🇸 USA 🇺🇸 Mich 2, server: 104.244.208.215, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇺🇸 USA 🇺🇲 Miso, server: 69.30.201.82, port: 8097, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D}
+  - {name: 🇺🇸 USA 🇺🇸 Miso, server: 107.150.39.43, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇺🇸 USA 🇺🇲 Mnz, server: 207.244.127.118, port: 33798, type: ss, cipher: aes-256-gcm, password: z7ern6xRq5tNssfyAmLGbxEH}
+  - {name: 🇺🇸 USA 🇺🇸 NCal, server: 66.11.124.140, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇺🇸 USA 🇺🇸 Nebr, server: 154.16.168.184, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇺🇸 USA 🇺🇸 NY, server: 45.43.14.93, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇺🇸 USA 🇺🇸 NY 2, server: 45.43.19.76, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇺🇸 USA 🇺🇸 NY 3, server: 45.43.19.92, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇺🇸 USA 🇺🇲 NY, server: 87.239.254.20, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇺🇸 USA 🇺🇸 NY 4, server: 107.174.20.132, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇺🇸 USA 🇺🇸 NY 5, server: 172.93.153.150, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇺🇸 USA 🇺🇲 NY 2, server: 192.40.59.229, port: 33798, type: ss, cipher: aes-256-gcm, password: z7ern6xRq5tNssfyAmLGbxEH}
+  - {name: 🇺🇸 USA 🇺🇲 NY 3, server: 192.40.59.229, port: 34583, type: ss, cipher: aes-256-gcm, password: hbWeaNJfjeP6GkT7jp6CSSx8}
+  - {name: 🇺🇸 USA 🇺🇲 NY 4, server: 213.59.119.7, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE}
+  - {name: 🇺🇸 USA 🇺🇲 Phx, server: 199.58.187.69, port: 33798, type: ss, cipher: aes-256-gcm, password: z7ern6xRq5tNssfyAmLGbxEH}
+  - {name: 🇺🇸 USA 🇺🇲 Ohio, server: 45.144.240.212, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇺🇸 USA 🇺🇲 Ohio 2, server: 45.151.175.127, port: 80, type: ss, cipher: aes-256-cfb, password: jik198863}
+  - {name: 🇺🇸 USA 🇺🇸 Okla, server: 84.17.35.91, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇺🇸 USA 🇺🇸 Okla 2, server: 89.187.187.147, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇺🇸 USA 🇺🇲 Orl, server: 198.147.22.87, port: 33798, type: ss, cipher: aes-256-gcm, password: z7ern6xRq5tNssfyAmLGbxEH}
+  - {name: 🇺🇸 USA 🇺🇲 Orl 2, server: 198.147.22.87, port: 34583, type: ss, cipher: aes-256-gcm, password: hbWeaNJfjeP6GkT7jp6CSSx8}
+  - {name: 🇺🇸 USA 🇺🇲 Pens, server: 89.187.173.201, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇺🇸 USA 🇺🇲 Phx 2, server: 199.58.187.69, port: 34583, type: ss, cipher: aes-256-gcm, password: hbWeaNJfjeP6GkT7jp6CSSx8}
+  - {name: 🇺🇸 USA 🇺🇸 RodA, server: 173.237.207.21, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇺🇸 USA 🇺🇲 Sea, server: 199.229.250.165, port: 33798, type: ss, cipher: aes-256-gcm, password: z7ern6xRq5tNssfyAmLGbxEH}
+  - {name: 🇺🇸 USA 🇺🇲 Sea 2, server: 199.229.250.165, port: 34583, type: ss, cipher: aes-256-gcm, password: hbWeaNJfjeP6GkT7jp6CSSx8}
+  - {name: 🇺🇸 USA 🇺🇲 Stl, server: 148.72.174.51, port: 33798, type: ss, cipher: aes-256-gcm, password: z7ern6xRq5tNssfyAmLGbxEH}
+  - {name: 🇺🇸 USA 🇺🇲 Stl 2, server: 148.72.174.51, port: 34583, type: ss, cipher: aes-256-gcm, password: hbWeaNJfjeP6GkT7jp6CSSx8}
+  - {name: 🇺🇸 USA 🇺🇲 Tex, server: 191.96.73.216, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇺🇸 USA 🇺🇸 Tex, server: 199.10.64.67, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇺🇸 USA 🇺🇸 Tex 2, server: 199.10.64.115, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇺🇸 USA 🇺🇲 Tpa, server: 209.216.92.212, port: 33798, type: ss, cipher: aes-256-gcm, password: z7ern6xRq5tNssfyAmLGbxEH}
+  - {name: 🇺🇸 USA 🇺🇲 Tpa 2, server: 209.216.92.212, port: 34583, type: ss, cipher: aes-256-gcm, password: hbWeaNJfjeP6GkT7jp6CSSx8}
+  - {name: 🇺🇸 USA 🇺🇸 Virg, server: 207.244.67.149, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇺🇸 USA 🇺🇸 Virg 2, server: 207.244.84.42, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇺🇸 USA 🇺🇸 Wash, server: 50.7.12.147, port: 8097, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D}
+  - {name: 🇺🇸 USA 🇺🇸 Wash 2, server: 50.7.12.147, port: 8099, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D}
+  - {name: 🇺🇸 USA 🇺🇸 Los, server: 173.237.207.25, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: 🇺🇸 USA 🇺🇸Buf, server: 172.93.153.146, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: 🇺🇸 USA 🇺🇸 Ltw, server: 104.244.211.179, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: 🇺🇸 USA 🇺🇸Chi, server: 74.119.146.181, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: 🇺🇸 USA 🇺🇸Stl, server: 148.72.169.213, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: 🇺🇸 USA 🇺🇸 Stl, server: us-stl.wbnet.cf, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: 🇺🇸 USA 🇺🇸 Mia 2, server: 172.83.42.37, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: 🇺🇸 USA 🇺🇸 Orl, server: 198.147.22.151, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: 🇺🇸 USA 🇺🇸 Tpa, server: 209.216.92.220, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: 🇺🇸 USA 🇺🇸 Kan, server: 198.204.231.149, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: 🇺🇸 USA 🇺🇸 Den, server: 174.128.245.147, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: 🇺🇸 USA 🇺🇸 Dal, server: 66.115.177.131, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: 🇺🇸 USA 🇺🇸 Sea, server: 104.200.129.243, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: 🇺🇸 USA 🇺🇸 Bdn, server: 45.43.14.105, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: 🇺🇸 USA 🇺🇸 Slc, server: 104.200.131.170, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: 🇺🇸 USA 🇺🇸 Hou, server: 199.10.64.99, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: 🇺🇸 USA 🇺🇸 Phx, server: 199.58.187.10, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: 🇺🇸 USA 🇺🇸 Lax, server: 184.170.243.199, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: 🇺🇸 USA 🇺🇸 Sfo, server: 198.8.81.35, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: 🇺🇸 USA 🇺🇸 Las, server: 45.89.173.205, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: 🇺🇸 USA 🇺🇸 Okc, server: us-okc.wbnet.cf, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: 🇺🇸 USA 🇺🇸 Sdf, server: us-sdf.wbnet.cf, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: 🇺🇸 USA 🇺🇲 Los 3, server: 89.187.187.76, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL}
+  - {name: 🇺🇸 USA 🇺🇲 San, server: 107.181.166.83, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL}
+  - {name: 🇺🇸 USA 🇺🇲 Bos 3, server: 173.237.207.30, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL}
+  - {name: 🇺🇸 USA 🇺🇲 Mia 3, server: 89.187.173.201, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL}
+  - {name: 🇺🇸 USA 🇺🇲 Nyc, server: 192.40.59.229, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL}
+  - {name: 🇺🇸 USA 🇺🇲 Las 3, server: 89.187.187.149, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL}
+  - {name: 🇺🇸 USA 🇺🇲 Kan 3, server: 63.141.236.243, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL}
+  - {name: 🇺🇸 USA 🇺🇲 Buf 4, server: 107.175.104.86, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL}
+  - {name: 🇺🇸 USA 🇺🇲 Hou 3, server: 104.148.30.35, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL}
+  - {name: 🇺🇸 USA 🇺🇲 Den 3, server: 174.128.245.147, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL}
+  - {name: 🇺🇸 USA 🇺🇲 Sea 3, server: 199.229.250.165, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL}
+  - {name: 🇺🇸 USA 🇺🇲 Atl 3, server: 66.115.175.35, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL}
+  - {name: 🇺🇸 USA 🇺🇲 Clt 3, server: 66.11.124.140, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL}
+  - {name: 🇺🇸 USA 🇺🇲 Tpa 3, server: 209.216.92.212, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL}
+  - {name: 🇺🇸 USA 🇺🇲 Phx 3, server: 199.58.187.69, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL}
+  - {name: 🇺🇸 USA 🇺🇲 Bdn 3, server: 45.43.14.75, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL}
+  - {name: 🇺🇸 USA 🇺🇲 Ltm 3, server: 45.43.19.68, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL}
+  - {name: 🇺🇸 USA 🇺🇲 Mnz 2, server: 207.244.127.118, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL}
+  - {name: 🇺🇸 USA 🇺🇲 Dtw 3, server: 104.244.208.227, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL}
+  - {name: 🇺🇸 USA 🇺🇲 Stl 3, server: 148.72.174.51, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL}
+  - {name: 🇺🇸 USA 🇺🇲 Orl 3, server: 198.147.22.87, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL}
+  - {name: 🇺🇸 USA 🇺🇲 Slc, server: 104.200.131.170, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL}
+  - {name: 🇺🇸 USA 🇺🇲 Chi, server: 74.119.146.133, port: 31140, type: ss, cipher: aes-256-cfb, password: A6FwVcjCwTBKmPCYnQGfbPfL}
+  - {name: 🇺🇸 USA 🇺🇲 Cal, server: 45.129.32.8, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇺🇸 USA 🇺🇲 Los 4, server: 89.187.187.76, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇺🇸 USA 🇺🇲 San 2, server: 107.181.166.83, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇺🇸 USA 🇺🇲 Bos 4, server: 173.237.207.30, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇺🇸 USA 🇺🇲 Mia 4, server: 89.187.173.201, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇺🇸 USA 🇺🇲 Nyc 2, server: 192.40.59.229, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇺🇸 USA 🇺🇲 Las 4, server: 89.187.187.149, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇺🇸 USA 🇺🇲 Kan 4, server: 63.141.236.243, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇺🇸 USA 🇺🇲 Buf 5, server: 107.175.104.86, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇺🇸 USA 🇺🇲 Hou 4, server: 104.148.30.35, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇺🇸 USA 🇺🇲 Sea 4, server: 199.229.250.165, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇺🇸 USA 🇺🇲 Atl 4, server: 66.115.175.35, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇺🇸 USA 🇺🇲 Clt 4, server: 66.11.124.140, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇺🇸 USA 🇺🇲 Tpa 4, server: 209.216.92.212, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇺🇸 USA 🇺🇲 Phx 4, server: 199.58.187.69, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇺🇸 USA 🇺🇲 Bdn 4, server: 45.43.14.75, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇺🇸 USA 🇺🇲 Ltm 4, server: 45.43.19.68, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇺🇸 USA 🇺🇲 Mnz 3, server: 207.244.127.118, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇺🇸 USA 🇺🇲 Dtw 4, server: 104.244.208.227, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇺🇸 USA 🇺🇲 Stl 4, server: 148.72.174.51, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇺🇸 USA 🇺🇲 Orl 4, server: 198.147.22.87, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇺🇸 USA 🇺🇲 Slc 2, server: 104.200.131.170, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇺🇸 USA 🇺🇲 Chi 2, server: 74.119.146.133, port: 34651, type: ss, cipher: aes-256-cfb, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇺🇸 USA 🇺🇲 Cal 3, server: 45.129.32.8, port: 39942, type: ss, cipher: aes-256-gcm, password: ztnC5j7dm82KJSSpe2jk3eWB}
+  - {name: 🇺🇸 USA 🇺🇲 Los 5, server: 89.187.187.76, port: 39942, type: ss, cipher: aes-256-gcm, password: ztnC5j7dm82KJSSpe2jk3eWB}
+  - {name: 🇺🇸 USA 🇺🇲 San 3, server: 107.181.166.83, port: 39942, type: ss, cipher: aes-256-gcm, password: ztnC5j7dm82KJSSpe2jk3eWB}
+  - {name: 🇺🇸 USA 🇺🇲 Bos 5, server: 173.237.207.30, port: 39942, type: ss, cipher: aes-256-gcm, password: ztnC5j7dm82KJSSpe2jk3eWB}
+  - {name: 🇺🇸 USA 🇺🇲 Mia 5, server: 89.187.173.201, port: 39942, type: ss, cipher: aes-256-gcm, password: ztnC5j7dm82KJSSpe2jk3eWB}
+  - {name: 🇺🇸 USA 🇺🇲 Nyc 3, server: 192.40.59.229, port: 39942, type: ss, cipher: aes-256-gcm, password: ztnC5j7dm82KJSSpe2jk3eWB}
+  - {name: 🇺🇸 USA 🇺🇲 Las 5, server: 89.187.187.149, port: 39942, type: ss, cipher: aes-256-gcm, password: ztnC5j7dm82KJSSpe2jk3eWB}
+  - {name: 🇺🇸 USA 🇺🇲 Kan 5, server: 63.141.236.243, port: 39942, type: ss, cipher: aes-256-gcm, password: ztnC5j7dm82KJSSpe2jk3eWB}
+  - {name: 🇺🇸 USA 🇺🇲 Buf 6, server: 107.175.104.86, port: 39942, type: ss, cipher: aes-256-gcm, password: ztnC5j7dm82KJSSpe2jk3eWB}
+  - {name: 🇺🇸 USA 🇺🇲 Hou 5, server: 104.148.30.35, port: 39942, type: ss, cipher: aes-256-gcm, password: ztnC5j7dm82KJSSpe2jk3eWB}
+  - {name: 🇺🇸 USA 🇺🇲 Den 4, server: 174.128.245.147, port: 39942, type: ss, cipher: aes-256-gcm, password: ztnC5j7dm82KJSSpe2jk3eWB}
+  - {name: 🇺🇸 USA 🇺🇲 Sea 5, server: 199.229.250.165, port: 39942, type: ss, cipher: aes-256-gcm, password: ztnC5j7dm82KJSSpe2jk3eWB}
+  - {name: 🇺🇸 USA 🇺🇲 Atl 5, server: 66.115.175.35, port: 39942, type: ss, cipher: aes-256-gcm, password: ztnC5j7dm82KJSSpe2jk3eWB}
+  - {name: 🇺🇸 USA 🇺🇲 Clt 5, server: 66.11.124.140, port: 39942, type: ss, cipher: aes-256-gcm, password: ztnC5j7dm82KJSSpe2jk3eWB}
+  - {name: 🇺🇸 USA 🇺🇲 Tpa 5, server: 209.216.92.212, port: 39942, type: ss, cipher: aes-256-gcm, password: ztnC5j7dm82KJSSpe2jk3eWB}
+  - {name: 🇺🇸 USA 🇺🇲 Phx 5, server: 199.58.187.69, port: 39942, type: ss, cipher: aes-256-gcm, password: ztnC5j7dm82KJSSpe2jk3eWB}
+  - {name: 🇺🇸 USA 🇺🇲 Bdn 5, server: 45.43.14.75, port: 39942, type: ss, cipher: aes-256-gcm, password: ztnC5j7dm82KJSSpe2jk3eWB}
+  - {name: 🇺🇸 USA 🇺🇲 Ltm 5, server: 45.43.19.68, port: 39942, type: ss, cipher: aes-256-gcm, password: ztnC5j7dm82KJSSpe2jk3eWB}
+  - {name: 🇺🇸 USA 🇺🇲 Mnz 4, server: 207.244.127.118, port: 39942, type: ss, cipher: aes-256-gcm, password: ztnC5j7dm82KJSSpe2jk3eWB}
+  - {name: 🇺🇸 USA 🇺🇲 Dtw 5, server: 104.244.208.227, port: 39942, type: ss, cipher: aes-256-gcm, password: ztnC5j7dm82KJSSpe2jk3eWB}
+  - {name: 🇺🇸 USA 🇺🇲 Stl 5, server: 148.72.174.51, port: 39942, type: ss, cipher: aes-256-gcm, password: ztnC5j7dm82KJSSpe2jk3eWB}
+  - {name: 🇺🇸 USA 🇺🇲 Orl 5, server: 198.147.22.87, port: 39942, type: ss, cipher: aes-256-gcm, password: ztnC5j7dm82KJSSpe2jk3eWB}
+  - {name: 🇺🇸 USA 🇺🇲 Slc 3, server: 104.200.131.170, port: 39942, type: ss, cipher: aes-256-gcm, password: ztnC5j7dm82KJSSpe2jk3eWB}
+  - {name: 🇺🇸 USA 🇺🇲 Chi 3, server: 74.119.146.133, port: 39942, type: ss, cipher: aes-256-cfb, password: ztnC5j7dm82KJSSpe2jk3eWB}
+  - {name: 🇺🇸 USA 🇺🇲 Den 5, server: 174.128.245.147, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: 🇺🇸 USA 🇺🇲 Cal 4, server: 45.129.32.8, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: 🇺🇸 USA 🇺🇲 Los 6, server: 89.187.187.76, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: 🇺🇸 USA 🇺🇲 San 4, server: 107.181.166.83, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: 🇺🇸 USA 🇺🇲 Bos 6, server: 173.237.207.30, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: 🇺🇸 USA 🇺🇲 Mia 6, server: 89.187.173.201, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: 🇺🇸 USA 🇺🇲 Nyc 4, server: 192.40.59.229, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: 🇺🇸 USA 🇺🇲 Las 6, server: 89.187.187.149, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: 🇺🇸 USA 🇺🇲 Kan 6, server: 63.141.236.243, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: 🇺🇸 USA 🇺🇲 Buf 7, server: 107.175.104.86, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: 🇺🇸 USA 🇺🇲 Hou 6, server: 104.148.30.35, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: 🇺🇸 USA 🇺🇲 Den 6, server: 174.128.245.147, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: 🇺🇸 USA 🇺🇲 Sea 6, server: 199.229.250.165, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: 🇺🇸 USA 🇺🇲 Atl 6, server: 66.115.175.35, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: 🇺🇸 USA 🇺🇲 Clt 6, server: 66.11.124.140, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: 🇺🇸 USA 🇺🇲 Tpa 6, server: 209.216.92.212, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: 🇺🇸 USA 🇺🇲 Phx 6, server: 199.58.187.69, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: 🇺🇸 USA 🇺🇲 Bdn 6, server: 45.43.14.75, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: 🇺🇸 USA 🇺🇲 Ltm 6, server: 45.43.19.68, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: 🇺🇸 USA 🇺🇲 Mnz 5, server: 207.244.127.118, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: 🇺🇸 USA 🇺🇲 Dtw 6, server: 104.244.208.227, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: 🇺🇸 USA 🇺🇲 Stl 6, server: 148.72.174.51, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: 🇺🇸 USA 🇺🇲 Orl 6, server: 198.147.22.87, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: 🇺🇸 USA 🇺🇲 Slc 4, server: 104.200.131.170, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: 🇺🇸 USA 🇺🇲 Chi 4, server: 74.119.146.133, port: 35938, type: ss, cipher: aes-256-cfb, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: 🇺🇸 USA 🇺🇲 Cal 5, server: 45.129.32.8, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇺🇸 USA 🇺🇲 Los 7, server: 89.187.187.76, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇺🇸 USA 🇺🇲 San 5, server: 107.181.166.83, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇺🇸 USA 🇺🇲 Bos 7, server: 173.237.207.30, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇺🇸 USA 🇺🇲 Mia 7, server: 89.187.173.201, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇺🇸 USA 🇺🇲 Nyc 5, server: 192.40.59.229, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇺🇸 USA 🇺🇲 Las 7, server: 89.187.187.149, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇺🇸 USA 🇺🇲 Kan 7, server: 63.141.236.243, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇺🇸 USA 🇺🇲 Buf 8, server: 107.175.104.86, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇺🇸 USA 🇺🇲 Hou 7, server: 104.148.30.35, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇺🇸 USA 🇺🇲 Den 7, server: 174.128.245.147, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇺🇸 USA 🇺🇲 Sea 7, server: 199.229.250.165, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇺🇸 USA 🇺🇲 Atl 7, server: 66.115.175.35, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇺🇸 USA 🇺🇲 Clt 7, server: 66.11.124.140, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇺🇸 USA 🇺🇲 Tpa 7, server: 209.216.92.212, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇺🇸 USA 🇺🇲 Phx 7, server: 199.58.187.69, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇺🇸 USA 🇺🇲 Bdn 7, server: 45.43.14.75, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇺🇸 USA 🇺🇲 Ltm 7, server: 45.43.19.68, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇺🇸 USA 🇺🇲 Mnz 6, server: 207.244.127.118, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇺🇸 USA 🇺🇲 Dtw 7, server: 104.244.208.227, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇺🇸 USA 🇺🇲 Stl 7, server: 148.72.174.51, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇺🇸 USA 🇺🇲 Orl 7, server: 198.147.22.87, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇺🇸 USA 🇺🇲 Slc 5, server: 104.200.131.170, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇺🇸 USA 🇺🇲 Chi 5, server: 74.119.146.133, port: 34007, type: ss, cipher: aes-256-cfb, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇺🇸 USA 🇺🇲 Los 8, server: 89.187.187.76, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇺🇸 USA 🇺🇲 San 6, server: 107.181.166.83, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇺🇸 USA 🇺🇲 Bos 8, server: 173.237.207.30, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇺🇸 USA 🇺🇲 Mia 8, server: 89.187.173.201, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇺🇸 USA 🇺🇲 Nyc 6, server: 192.40.59.229, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇺🇸 USA 🇺🇲 Las 8, server: 89.187.187.149, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇺🇸 USA 🇺🇲 Kan 8, server: 63.141.236.243, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇺🇸 USA 🇺🇲 Buf 9, server: 107.175.104.86, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇺🇸 USA 🇺🇲 Hou 8, server: 104.148.30.35, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇺🇸 USA 🇺🇲 Den 8, server: 174.128.245.147, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇺🇸 USA 🇺🇲 Sea 8, server: 199.229.250.165, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇺🇸 USA 🇺🇲 Atl 8, server: 66.115.175.35, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇺🇸 USA 🇺🇲 Clt 8, server: 66.11.124.140, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇺🇸 USA 🇺🇲 Tpa 8, server: 209.216.92.212, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇺🇸 USA 🇺🇲 Phx 8, server: 199.58.187.69, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇺🇸 USA 🇺🇲 Bdn 8, server: 45.43.14.75, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇺🇸 USA 🇺🇲 Ltm 8, server: 45.43.19.68, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇺🇸 USA 🇺🇲 Mnz 7, server: 207.244.127.118, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇺🇸 USA 🇺🇲 Dtw 8, server: 104.244.208.227, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇺🇸 USA 🇺🇲 Stl 8, server: 148.72.174.51, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇺🇸 USA 🇺🇲 Orl 8, server: 198.147.22.87, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇺🇸 USA 🇺🇲 Slc 6, server: 104.200.131.170, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇺🇸 USA 🇺🇲 Chi 6, server: 74.119.146.133, port: 34007, type: ss, cipher: aes-256-cfb, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇺🇸 USA 🇺🇲 Cal 6, server: 45.129.32.8, port: 33615, type: ss, cipher: aes-256-gcm, password: NSRCqbG4ZV7fTrpCyawngBRY}
+  - {name: 🇺🇸 USA 🇺🇲 Los 9, server: 89.187.187.76, port: 33615, type: ss, cipher: aes-256-gcm, password: NSRCqbG4ZV7fTrpCyawngBRY}
+  - {name: 🇺🇸 USA 🇺🇲 San 7, server: 107.181.166.83, port: 33615, type: ss, cipher: aes-256-gcm, password: NSRCqbG4ZV7fTrpCyawngBRY}
+  - {name: 🇺🇸 USA 🇺🇲 Bos 9, server: 173.237.207.30, port: 33615, type: ss, cipher: aes-256-gcm, password: NSRCqbG4ZV7fTrpCyawngBRY}
+  - {name: 🇺🇸 USA 🇺🇲 Mia 9, server: 89.187.173.201, port: 33615, type: ss, cipher: aes-256-gcm, password: NSRCqbG4ZV7fTrpCyawngBRY}
+  - {name: 🇺🇸 USA 🇺🇲 Nyc 7, server: 192.40.59.229, port: 33615, type: ss, cipher: aes-256-gcm, password: NSRCqbG4ZV7fTrpCyawngBRY}
+  - {name: 🇺🇸 USA 🇺🇲 Las 9, server: 89.187.187.149, port: 33615, type: ss, cipher: aes-256-gcm, password: NSRCqbG4ZV7fTrpCyawngBRY}
+  - {name: 🇺🇸 USA 🇺🇲 Kan 9, server: 63.141.236.243, port: 33615, type: ss, cipher: aes-256-gcm, password: NSRCqbG4ZV7fTrpCyawngBRY}
+  - {name: 🇺🇸 USA 🇺🇲 Buf 10, server: 107.175.104.86, port: 33615, type: ss, cipher: aes-256-gcm, password: NSRCqbG4ZV7fTrpCyawngBRY}
+  - {name: 🇺🇸 USA 🇺🇲 Hou 9, server: 104.148.30.35, port: 33615, type: ss, cipher: aes-256-gcm, password: NSRCqbG4ZV7fTrpCyawngBRY}
+  - {name: 🇺🇸 USA 🇺🇲 Den 9, server: 174.128.245.147, port: 33615, type: ss, cipher: aes-256-gcm, password: NSRCqbG4ZV7fTrpCyawngBRY}
+  - {name: 🇺🇸 USA 🇺🇲 Sea 9, server: 199.229.250.165, port: 33615, type: ss, cipher: aes-256-gcm, password: NSRCqbG4ZV7fTrpCyawngBRY}
+  - {name: 🇺🇸 USA 🇺🇲 Atl 9, server: 66.115.175.35, port: 33615, type: ss, cipher: aes-256-gcm, password: NSRCqbG4ZV7fTrpCyawngBRY}
+  - {name: 🇺🇸 USA 🇺🇲 Clt 9, server: 66.11.124.140, port: 33615, type: ss, cipher: aes-256-gcm, password: NSRCqbG4ZV7fTrpCyawngBRY}
+  - {name: 🇺🇸 USA 🇺🇲 Tpa 9, server: 209.216.92.212, port: 33615, type: ss, cipher: aes-256-gcm, password: NSRCqbG4ZV7fTrpCyawngBRY}
+  - {name: 🇺🇸 USA 🇺🇲 Phx 9, server: 199.58.187.69, port: 33615, type: ss, cipher: aes-256-gcm, password: NSRCqbG4ZV7fTrpCyawngBRY}
+  - {name: 🇺🇸 USA 🇺🇲 Bdn 9, server: 45.43.14.75, port: 33615, type: ss, cipher: aes-256-gcm, password: NSRCqbG4ZV7fTrpCyawngBRY}
+  - {name: 🇺🇸 USA 🇺🇲 Ltm 9, server: 45.43.19.68, port: 33615, type: ss, cipher: aes-256-gcm, password: NSRCqbG4ZV7fTrpCyawngBRY}
+  - {name: 🇺🇸 USA 🇺🇲 Mnz 8, server: 207.244.127.118, port: 33615, type: ss, cipher: aes-256-gcm, password: NSRCqbG4ZV7fTrpCyawngBRY}
+  - {name: 🇺🇸 USA 🇺🇲 Dtw 9, server: 104.244.208.227, port: 33615, type: ss, cipher: aes-256-gcm, password: NSRCqbG4ZV7fTrpCyawngBRY}
+  - {name: 🇺🇸 USA 🇺🇲 Stl 9, server: 148.72.174.51, port: 33615, type: ss, cipher: aes-256-gcm, password: NSRCqbG4ZV7fTrpCyawngBRY}
+  - {name: 🇺🇸 USA 🇺🇲 Orl 9, server: 198.147.22.87, port: 33615, type: ss, cipher: aes-256-gcm, password: NSRCqbG4ZV7fTrpCyawngBRY}
+  - {name: 🇺🇸 USA 🇺🇲 Slc 7, server: 104.200.131.170, port: 33615, type: ss, cipher: aes-256-gcm, password: NSRCqbG4ZV7fTrpCyawngBRY}
+  - {name: 🇺🇸 USA 🇺🇲 Chi 7, server: 74.119.146.133, port: 33615, type: ss, cipher: aes-256-cfb, password: NSRCqbG4ZV7fTrpCyawngBRY}
+  - {name: 🇺🇸 USA 🇺🇲 NY, server: 156.146.56.130, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: 🇺🇸 USA 🇺🇲 Atl, server: 172.83.40.149, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: 🇺🇸 USA 🇺🇲 Cal 7, server: 45.129.32.22, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: VIT 🇻🇳 Hano, server: 202.143.111.213, port: 33798, type: ss, cipher: aes-256-gcm, password: z7ern6xRq5tNssfyAmLGbxEH}
+  - {name: VIT 🇻🇳 Hano 2, server: 202.143.110.37, port: 31070, type: ss, cipher: aes-256-gcm, password: 3MZ6UwCpMYHKfjVZA8z5VBRa}
+  - {name: VIT 🇻🇳 Hcm, server: 202.143.111.213, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL}
+  - {name: VIT 🇻🇳 Hcm 2, server: 202.143.111.213, port: 34583, type: ss, cipher: aes-256-gcm, password: hbWeaNJfjeP6GkT7jp6CSSx8}
+  - {name: VIT 🇻🇳 Hcm 3, server: 202.143.111.213, port: 33615, type: ss, cipher: aes-256-gcm, password: NSRCqbG4ZV7fTrpCyawngBRY}
+  - {name: VIT 🇻🇳 Hcm 4, server: 202.143.111.213, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: VIT 🇻🇳 Hcm 5, server: 202.143.111.213, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: VIT 🇻🇳 Hcm 6, server: 202.143.111.213, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: VIT 🇻🇳 Hcm 7, server: 202.143.111.213, port: 39942, type: ss, cipher: aes-256-gcm, password: ztnC5j7dm82KJSSpe2jk3eWB}
+  - {name: VIT 🇻🇳 Hcm 8, server: 202.143.111.213, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+proxy-groups:
+  - name: Proxies
+    type: select
+    proxies:
+      - ALB 🇦🇱Tir
+      - ALB 🇦🇱Tir 2
+      - ALB 🇦🇱Tir 3
+      - ALB 🇦🇱Tir 4
+      - ALB 🇦🇱Tir 5
+      - ALB 🇦🇱Tir 6
+      - ALB 🇦🇱Tir 7
+      - ALB 🇦🇱 Tira
+      - ALB 🇦🇱 Tira 2
+      - ALB 🇦🇱 Tira 3
+      - ALB 🇦🇱 Tira 4
+      - ALB 🇦🇱 Tira 5
+      - 🇦🇷 ARG 🇦🇺 Per
+      - AST 🇦🇹 Vie
+      - AST 🇦🇹 Vie 2
+      - AST 🇦🇹 Vie 3
+      - AST 🇦🇹 Vie 4
+      - AST 🇦🇹 Vie 5
+      - AST 🇦🇹 Vie 6
+      - AST 🇦🇹 Vie 7
+      - AST 🇦🇹 Vie 8
+      - AST 🇦🇹 Vie 9
+      - AST 🇦🇹 Vie 10
+      - AST 🇦🇹 Vie 11
+      - AST 🇦🇹 Vie 12
+      - 🇦🇺 AUS 🇦🇺 Adl
+      - 🇦🇺 AUS 🇦🇺 Brisb
+      - 🇦🇺 AUS 🇦🇺 Bri
+      - 🇦🇺 AUS 🇦🇺 Bri 2
+      - 🇦🇺 AUS 🇦🇺 Bri 3
+      - 🇦🇺 AUS 🇦🇺 Bri 4
+      - 🇦🇺 AUS 🇦🇺 Bri 5
+      - 🇦🇺 AUS 🇦🇺 Bri 6
+      - 🇦🇺 AUS 🇦🇺 Bri 7
+      - 🇦🇺 AUS 🇦🇺 Bri 8
+      - 🇦🇺 AUS 🇦🇺 Brisb 2
+      - 🇦🇺 AUS 🇦🇺 Melb
+      - 🇦🇺 AUS 🇦🇺 Syd
+      - 🇦🇺 AUS 🇦🇺 Syd 2
+      - 🇦🇺 AUS 🇦🇺 Syd 3
+      - 🇦🇺 AUS 🇦🇺 Syd 4
+      - 🇦🇺 AUS 🇦🇺 Syd 5
+      - 🇦🇺 AUS 🇦🇺 Syd 6
+      - 🇦🇺 AUS 🇦🇺 Syd 7
+      - 🇦🇺 AUS 🇦🇺 Syd 8
+      - 🇦🇺 AUS 🇦🇺 Syd 9
+      - 🇦🇺 AUS 🇦🇺 Syd 10
+      - 🇦🇺 AUS 🇦🇺 Syd 11
+      - 🇦🇺 AUS 🇦🇺 Syd 12
+      - 🇦🇺 AUS 🇦🇺 Syd 13
+      - 🇦🇺 AUS 🇦🇺 Syd 14
+      - 🇦🇺 AUS 🇦🇺 Syd 15
+      - 🇦🇺 AUS 🇦🇺 Bne
+      - 🇦🇺 AUS 🇦🇺 Mel
+      - AZR 🇦🇿 Bak
+      - AZR 🇦🇿 Bak 2
+      - AZR 🇦🇿 Bak 3
+      - AZR 🇦🇿 Bak 4
+      - AZR 🇦🇿 Bak 5
+      - AZR 🇦🇿 Bak 6
+      - AZR 🇦🇿 Bak 7
+      - AZR 🇦🇿 Baku
+      - AZR 🇦🇿 Baku 2
+      - AZR 🇦🇿 Baku 3
+      - AZR 🇦🇿 Baku 4
+      - AZR 🇦🇿 Baku 5
+      - AZR 🇦🇿 Baku 6
+      - 🇧🇪 BEL 🇧🇪 Brux
+      - 🇧🇪 BEL 🇧🇪 Brux 2
+      - BOS 🇧🇦 Ashq
+      - BOS 🇧🇦 Sar
+      - BOS 🇧🇦 Trav
+      - 🇧🇷 BRA 🇧🇷 Sao
+      - 🇧🇷 BRA 🇧🇷 Sao 2
+      - 🇧🇷 BRA 🇧🇷 Sao 3
+      - 🇧🇷 BRA 🇧🇷 Sao 4
+      - 🇧🇷 BRA 🇧🇷 Sao 5
+      - 🇧🇷 BRA 🇧🇷 Sao 6
+      - 🇧🇷 BRA 🇧🇷 Sao 7
+      - 🇧🇷 BRA 🇧🇷 Sao 8
+      - 🇧🇷 BRA 🇧🇷 Sao 9
+      - 🇧🇷 BRA 🇧🇷Sao
+      - BULG 🇧🇬 Sof
+      - BULG 🇧🇬 Suf
+      - BULG 🇧🇬 Suf 2
+      - BULG 🇧🇬 Suf 3
+      - CAN 🇨🇦 Ont
+      - CAN 🇨🇦 Ont 2
+      - CAN 🇨🇦 Ont 3
+      - CAN 🇨🇦 Ont 4
+      - CAN 🇨🇦 Ont 5
+      - CAN 🇨🇦 Ont 6
+      - CAN 🇨🇦 Tor
+      - CAN 🇨🇦 Tor 2
+      - CAN 🇨🇦 Tor 3
+      - CAN 🇨🇦 Tor 4
+      - CAN 🇨🇦 Tor 5
+      - CAN 🇨🇦 Tor 6
+      - CAN 🇨🇦 Tor 7
+      - CAN 🇨🇦 Tor 8
+      - CAN 🇨🇦 Tor 9
+      - CAN 🇨🇦 Van
+      - CAN 🇨🇦 Van 2
+      - CAN 🇨🇦 Van 3
+      - CAN 🇨🇦 Van 4
+      - CAN 🇨🇦 Van 5
+      - CAN 🇨🇦 Van 6
+      - CAN 🇨🇦 Van 7
+      - CAN 🇨🇦 Van 8
+      - CAN 🇨🇦 Van 9
+      - CAN 🇨🇦 Van 10
+      - CHIL 🇨🇱 San
+      - CHIL 🇨🇱 San 2
+      - CHIL 🇨🇱 San 3
+      - CHIL 🇨🇱 San 4
+      - CHIL 🇨🇱 San 5
+      - CHIL 🇨🇱 San 6
+      - CHIL 🇨🇱 San 7
+      - COL 🇨🇴 Bog
+      - COST 🇨🇷 Sjn
+      - 🇷🇴 CRO 🇭🇷 Zag
+      - 🇷🇴 CRO 🇭🇷 Zag 2
+      - 🇷🇴 CRO 🇭🇷 Zag 3
+      - 🇷🇴 CRO 🇭🇷 Zag 4
+      - 🇷🇴 CRO 🇭🇷 Zag 5
+      - 🇷🇴 CRO 🇭🇷 Zag 6
+      - 🇷🇴 CRO 🇭🇷 Zag 7
+      - 🇷🇴 CRO 🇭🇷Zag
+      - CYP 🇨🇾 Nic
+      - CYP 🇨🇾 Nic 2
+      - CYP 🇨🇾 Nic 3
+      - CYP 🇨🇾 Nic 4
+      - CYP 🇨🇾 Nic 5
+      - CYP 🇨🇾 Nic 6
+      - CYP 🇨🇾 Nic 7
+      - CYP 🇨🇾 Nico
+      - CYP 🇨🇾 Nico 2
+      - CYP 🇨🇾 Nico 3
+      - CYP 🇨🇾 Nico 4
+      - CYP 🇨🇾 Nico 5
+      - CZE 🇨🇿 Prg
+      - 🇩🇪 DEN 🇩🇰 Balr
+      - 🇩🇪 DEN 🇩🇰 Balr 2
+      - 🇩🇪 DEN 🇩🇰 Cop
+      - 🇩🇪 DEN 🇩🇰 Cop 2
+      - 🇩🇪 DEN 🇩🇰 Cop 3
+      - 🇩🇪 DEN 🇩🇰 Cop 4
+      - 🇩🇪 DEN 🇩🇰 Cop 5
+      - 🇩🇪 DEN 🇩🇰 Cop 6
+      - 🇩🇪 DEN 🇩🇰 Cop 7
+      - 🇩🇪 DEN 🇩🇰 Cop 8
+      - 🇩🇪 DEN 🇩🇰 Cph
+      - 🇪🇸 EST 🇪🇪 Tal
+      - 🇪🇸 EST 🇪🇪 Tal 2
+      - 🇪🇸 EST 🇪🇪 Tal 3
+      - 🇪🇸 EST 🇪🇪 Tal 4
+      - 🇪🇸 EST 🇪🇪 Tal 5
+      - 🇪🇸 EST 🇪🇪 Tal 6
+      - 🇪🇸 EST 🇪🇪 Tal 7
+      - 🇪🇸 EST 🇪🇪 Tal 8
+      - 🇪🇸 EST 🇪🇪 Tal 9
+      - FIN 🇫🇮 Hel
+      - FIN 🇫🇮 Hel 2
+      - FIN 🇫🇮 Hel 3
+      - FIN 🇫🇮 Hel 4
+      - FIN 🇫🇮 Hel 5
+      - FIN 🇫🇮 Hel 6
+      - FIN 🇫🇮 Hel 7
+      - FIN 🇫🇮 Hels
+      - FIN 🇫🇮 Hels 2
+      - FIN 🇫🇮 Hels 3
+      - FIN 🇫🇮 Hels 4
+      - FIN 🇫🇮 Hels 5
+      - FIN 🇫🇮 Hels 6
+      - FIN 🇫🇮 Hels 7
+      - 🇺🇸 FIN 🇫🇮 Usima
+      - 🇺🇸 FIN 🇫🇮 Usima 2
+      - 🇫🇷 FRA 🇫🇷 Bod
+      - 🇫🇷 FRA 🇫🇷 Mersl
+      - 🇫🇷 FRA 🇫🇷 Mersl 2
+      - 🇫🇷 FRA 🇫🇷 Par
+      - 🇫🇷 FRA 🇫🇷 Par 2
+      - 🇫🇷 FRA 🇫🇷 Par 3
+      - 🇫🇷 FRA 🇫🇷 Par 4
+      - 🇫🇷 FRA 🇫🇷 Par 5
+      - 🇫🇷 FRA 🇫🇷 Par 6
+      - 🇫🇷 FRA 🇫🇷 Par 7
+      - 🇫🇷 FRA 🇫🇷 Par 8
+      - 🇫🇷 FRA 🇫🇷 Par 9
+      - 🇫🇷 FRA 🇫🇷 Par 10
+      - 🇫🇷 FRA 🇫🇷 Par 11
+      - 🇫🇷 FRA 🇫🇷 SDen
+      - 🇫🇷 FRA 🇫🇷 SDen 2
+      - 🇫🇷 FRA 🇫🇷 SDen 3
+      - GER 🇩🇪 Ber
+      - GER 🇩🇪 Ber 2
+      - GER 🇩🇪 Ber 3
+      - GER 🇩🇪 Ber 4
+      - GER 🇩🇪 Ber 5
+      - GER 🇩🇪 Fra
+      - GER 🇩🇪 Fra 2
+      - GER 🇩🇪 Fra 3
+      - GER 🇩🇪 Fra 4
+      - GER 🇩🇪 Fra 5
+      - GER 🇩🇪 Ber 6
+      - GER 🇩🇪 Mun
+      - GER 🇩🇪 Mun 2
+      - GER 🇩🇪 Mun 3
+      - GER 🇩🇪 Mun 4
+      - GER 🇩🇪 Mun 5
+      - GER 🇩🇪 Fra 6
+      - GER 🇩🇪 Fra 7
+      - GER 🇩🇪 Fra 8
+      - GER 🇩🇪 Ber 7
+      - GER 🇩🇪 Mun 6
+      - GER 🇩🇪 Mun 7
+      - GER 🇩🇪 Berl
+      - GER 🇩🇪 Berl 2
+      - GER 🇩🇪 Berl 3
+      - GER 🇩🇪 Berl 4
+      - GER 🇩🇪 Berl 5
+      - GER 🇩🇪 Berl 6
+      - GER 🇩🇪 Berl 7
+      - GER 🇩🇪 Ber 8
+      - GER 🇩🇪 Berl 8
+      - GER 🇩🇪 Berl 9
+      - 🇺🇸 GER 🇩🇪 Dusl
+      - GER 🇩🇪 Fra 9
+      - GER 🇩🇪 Fra 10
+      - GER 🇩🇪 Fra 11
+      - GER 🇩🇪 Fra 12
+      - GER 🇩🇪 Fra 13
+      - GER 🇩🇪 Fra 14
+      - GER 🇩🇪 Mun 8
+      - 🇺🇸 GER 🇩🇪 Neus
+      - GRE 🇬🇷 Ath
+      - GRE 🇬🇷 Ath 2
+      - GRE 🇬🇷 Ath 3
+      - GRE 🇬🇷 Ath 4
+      - GRE 🇬🇷 Ath 5
+      - GRE 🇬🇷 Ath 6
+      - GRE 🇬🇷 Ath 7
+      - GREC 🇬🇷 Athn
+      - GREC 🇬🇷 Athn 2
+      - 🇭🇰 HKG 🇭🇰 Hkg
+      - 🇭🇰 HKG 🇭🇰 Hkg 2
+      - 🇭🇰 HKG 🇭🇰 Hkg 3
+      - 🇭🇰 HKG 🇭🇰 Hkg 4
+      - 🇭🇰 HKG 🇭🇰 Hkg 5
+      - 🇭🇰 HKG 🇭🇰 Hkg 6
+      - 🇭🇰 HKG 🇭🇰 Hkg 7
+      - 🇭🇰 HKG 🇭🇰 Hkg 8
+      - 🇭🇰 HKG 🇭🇰 Hkg 9
+      - 🇭🇰 HKG 🇭🇰 Hkg 10
+      - 🇭🇰 HKG 🇭🇰 Hkg 11
+      - 🇭🇰 HKG 🇭🇰 Hkg 12
+      - 🇭🇰 HKG 🇭🇰 Hkg 13
+      - 🇭🇰 HKG 🇭🇰 Hkg 14
+      - HUNG 🇭🇺 Bud
+      - HUNG 🇭🇺 Bud 2
+      - HUNG 🇭🇺 Budap
+      - ICL 🇮🇸 Ryk
+      - ICL 🇮🇸 Ryk 2
+      - ICL 🇮🇸 Ryk 3
+      - ICL 🇮🇸 Ryk 4
+      - ICL 🇮🇸 Ryk 5
+      - ICL 🇮🇸 Ryk 6
+      - ICL 🇮🇸 Ryk 7
+      - ICL 🇮🇸 Ryk 8
+      - ICL 🇮🇸 Ryk 9
+      - ICL 🇮🇸 Ryk 10
+      - ICL 🇮🇸 Ryk 11
+      - ICL 🇮🇸 Ryk 12
+      - ICL 🇮🇸 Ryk 13
+      - IND 🇮🇳 Banga
+      - IND 🇮🇳 Chen
+      - IND 🇮🇳 Chen 2
+      - IND 🇮🇳 Chen 3
+      - IND 🇮🇳 Mum
+      - IND 🇮🇳 Mum 2
+      - IND 🇮🇳 Mum 3
+      - IND 🇮🇳 Mum 4
+      - IND 🇮🇳 Mum 5
+      - IND 🇮🇳 Mum 6
+      - IND 🇮🇳 Mum 7
+      - IND 🇮🇳 Mum 8
+      - IND 🇮🇳 Mum 9
+      - IND 🇮🇳 Mum 10
+      - INDO 🇮🇩 Bali
+      - INDO 🇮🇩 Jak
+      - INDO 🇮🇩 Jak 2
+      - INDO 🇮🇩 Jak 3
+      - IRL 🇮🇪 Dubl
+      - IRL 🇮🇪 Dub
+      - IRL 🇮🇪 Dub 2
+      - IRL 🇮🇪 Dub 3
+      - IRL 🇮🇪 Dub 4
+      - IRL 🇮🇪 Dub 5
+      - IRL 🇮🇪 Dub 6
+      - IRL 🇮🇪 Dubl 2
+      - IRL 🇮🇪 Dubl 3
+      - IRL 🇮🇪 Dubl 4
+      - IRL 🇮🇪 Dubl 5
+      - IRL 🇮🇪 Dubl 6
+      - IRL 🇮🇪 Tel
+      - IRL 🇮🇪 Tel 2
+      - IRL 🇮🇪 Tel 3
+      - IRL 🇮🇪 Tel 4
+      - IRL 🇮🇪 Tel 5
+      - IRL 🇮🇪 Tel 6
+      - IRL 🇮🇪 Tel 7
+      - IRL 🇮🇪 Tel 8
+      - IRL 🇮🇪 Tel 9
+      - ISR 🇮🇱 Tel
+      - ISR 🇮🇱 Tel 2
+      - ISR 🇮🇱 Tel 3
+      - ISR 🇮🇱 Tel 4
+      - ITA 🇮🇹 Mil
+      - ITA 🇮🇹 Mil 2
+      - ITA 🇮🇹 Mil 3
+      - ITA 🇮🇹 Mil 4
+      - ITA 🇮🇹 Rom
+      - ITA 🇮🇹 Rom 2
+      - ITA 🇮🇹 Rom 3
+      - ITA 🇮🇹 Rom 4
+      - ITA 🇮🇹 Rom 5
+      - ITA 🇮🇹 Rom 6
+      - ITA 🇮🇹 Rom 7
+      - ITA 🇮🇹 Rom 8
+      - ITA 🇮🇹 Rom 9
+      - ITA 🇮🇹 Rom 10
+      - 🇯🇵 JPN 🇯🇵 Tok
+      - 🇯🇵 JPN 🇯🇵 Tok 2
+      - 🇯🇵 JPN 🇯🇵 Tok 3
+      - 🇯🇵 JPN 🇯🇵 Tok 4
+      - 🇯🇵 JPN 🇯🇵 Tok 5
+      - 🇯🇵 JPN 🇯🇵 Tok 6
+      - 🇯🇵 JPN 🇯🇵 Tok 7
+      - 🇯🇵 JPN 🇯🇵 Tok 8
+      - 🇯🇵 JPN 🇯🇵 Tok 9
+      - 🇯🇵 JPN 🇯🇵 Tok 10
+      - 🇯🇵 JPN 🇯🇵 Tok 11
+      - 🇯🇵 JPN 🇯🇵 Tok 12
+      - KAZ 🇰🇿 Uba
+      - 🇰🇷 KOR 🇰🇷 Seu
+      - 🇰🇷 KOR 🇰🇷 Seu 2
+      - 🇰🇷 KOR 🇰🇷 Seu 3
+      - 🇰🇷 KOR 🇰🇷 Seu 4
+      - 🇰🇷 KOR 🇰🇷 Seu 5
+      - 🇰🇷 KOR 🇰🇷 Seu 6
+      - 🇰🇷 KOR 🇰🇷 Seu 7
+      - 🇰🇷 KOR 🇰🇷 Seu 8
+      - 🇰🇷 KOR 🇰🇷 Seu 9
+      - 🇰🇷 KOR 🇰🇷 Seu 10
+      - 🇰🇷 KOR 🇰🇷 Seu 11
+      - 🇰🇷 KOR 🇰🇷 Seu 12
+      - LATV 🇱🇻 Riga
+      - LATV 🇱🇻 Riga 2
+      - LATV 🇱🇻 Riga 3
+      - LATV 🇱🇻 Riga 4
+      - LATV 🇱🇻 Riga 5
+      - LIB 🇱🇾 Trip
+      - LIB 🇱🇾 Trip 2
+      - LIB 🇱🇾 Trip 3
+      - LIB 🇱🇾 Trip 4
+      - LIB 🇱🇾 Trip 5
+      - LIB 🇱🇾 Trip 6
+      - LIB 🇱🇾 Trip 7
+      - LIB 🇱🇾 Trip 8
+      - LIB 🇱🇾 Trip 9
+      - LIB 🇱🇾 Trip 10
+      - LIB 🇱🇾 Trip 11
+      - LUX 🇱🇺 Ste
+      - LUX 🇱🇺 Lux
+      - LUX 🇱🇺 Lux
+      - LUX 🇱🇺 Lux 2
+      - LUX 🇱🇺 Lux 2
+      - LUX 🇱🇺 Lux 3
+      - LUX 🇱🇺 Lux 4
+      - 🇦🇨 MAC 🇲🇰 Skpj
+      - 🇦🇨 MAC 🇲🇰 Skpj 2
+      - 🇦🇨 MAC 🇲🇰 Skpj 3
+      - 🇦🇨 MAC 🇲🇰 Skpj 4
+      - MAL 🇲🇾 Kul
+      - MEX 🇲🇽 Mex
+      - MEX 🇲🇽 Mex 2
+      - MEX 🇲🇽 Mex 3
+      - MEX 🇲🇽 Mex 4
+      - MEX 🇲🇽 Mex 5
+      - MEX 🇲🇽 Mex 6
+      - MEX 🇲🇽 Mex 7
+      - MEX 🇲🇽 Mex 8
+      - MEX 🇲🇽 Mex 9
+      - MEX 🇲🇽 Mex 10
+      - 🇲🇴 MOLD 🇲🇩 Chsn
+      - 🇲🇴 MOLD 🇲🇩 Chsn 2
+      - 🇲🇴 MOLD 🇲🇩 Chsn 3
+      - 🇲🇴 MOLD 🇲🇩 Chsn 4
+      - 🇲🇴 MOLD 🇲🇩 Chsn 5
+      - 🇹🇭 NETH 🇳🇱 Ams
+      - 🇹🇭 NETH 🇳🇱 Ams 2
+      - 🇹🇭 NETH 🇳🇱 Ams 3
+      - 🇹🇭 NETH 🇳🇱 Ams 4
+      - 🇹🇭 NETH 🇳🇱 Ams 5
+      - 🇹🇭 NETH 🇳🇱 Ams 6
+      - 🇹🇭 NETH 🇳🇱 Ams 7
+      - 🇹🇭 NETH 🇳🇱 Ams 8
+      - NZ 🇳🇿 Auck
+      - NZ 🇳🇿 Auck 2
+      - NZ 🇳🇿 Auck 3
+      - NZ 🇳🇿 Auck 4
+      - NZ 🇳🇿 Auck 5
+      - NZ 🇳🇿 Auck 6
+      - NZ 🇳🇿 Auck 7
+      - NZ 🇳🇿 Auck 8
+      - NZ 🇳🇿 Auck 9
+      - NZ 🇳🇿 Auck 10
+      - NZ 🇳🇿 Auck 11
+      - NZ 🇳🇿 Auck 12
+      - NZ 🇳🇿 Auck 13
+      - NZ 🇳🇿 Auck 14
+      - NZ 🇳🇿 Auck 15
+      - NZ 🇳🇿 Auck 16
+      - NZ 🇳🇿 Auck 17
+      - NIG 🇳🇬 Lag
+      - NIG 🇳🇬 Lag 2
+      - NIG 🇳🇬 Lag 3
+      - NIG 🇳🇬 Lag 4
+      - NIG 🇳🇬 Lag 5
+      - NIG 🇳🇬 Lag 6
+      - NIG 🇳🇬 Lag 7
+      - NIG 🇳🇬 Lags
+      - NIG 🇳🇬 Lags 2
+      - NIG 🇳🇬 Lags 3
+      - NORW 🇳🇴 Osl
+      - NORW 🇳🇴 Osl 2
+      - NORW 🇳🇴 Osl 3
+      - NORW 🇳🇴 Osl 4
+      - NORW 🇳🇴 Osl 5
+      - 🇦🇷 PAR 🇵🇾 Asu
+      - 🇦🇷 PAR 🇵🇾 Asu 2
+      - 🇦🇷 PAR 🇵🇾 Asn
+      - 🇦🇷 PAR 🇵🇾 Asn 2
+      - 🇦🇷 PAR 🇵🇾 Fern
+      - 🇦🇷 PAR 🇵🇾 Fern 2
+      - 🇦🇷 PAR 🇵🇾 Fern 3
+      - 🇦🇷 PAR 🇵🇾 Fern 4
+      - 🇦🇷 PAR 🇵🇾 Fern 5
+      - 🇦🇷 PAR 🇵🇾 Fern 6
+      - 🇦🇷 PAR 🇵🇾 Fern 7
+      - 🇦🇷 PAR 🇵🇾 Fern 8
+      - 🇵🇭 PHIL 🇵🇭 Mak
+      - 🇵🇭 PHIL 🇵🇭 Mak 2
+      - 🇵🇭 PHIL 🇵🇭 Mak 3
+      - 🇵🇭 PHIL 🇵🇭 Mak 4
+      - 🇵🇭 PHIL 🇵🇭 Mak 5
+      - 🇵🇭 PHIL 🇵🇭 Mak 6
+      - 🇵🇭 PHIL 🇵🇭 Kul
+      - 🇵🇭 PHIL 🇵🇭 Mkt
+      - 🇵🇭 PHIL 🇵🇭 Mkt 2
+      - 🇵🇭 PHIL 🇵🇭 Mak 7
+      - 🇵🇭 PHIL 🇵🇭 Mak 8
+      - 🇵🇭 PHIL 🇵🇭Mnl
+      - POL 🇵🇱 War
+      - POL 🇵🇱 War 2
+      - POL 🇵🇱 War 3
+      - POL 🇵🇱 War 4
+      - POL 🇵🇱 War 5
+      - POR 🇵🇹 Faro
+      - POR 🇵🇹 Lisb
+      - POR 🇵🇹 Lisb 2
+      - POR 🇵🇹 Lisb 3
+      - POR 🇵🇹 Lisb 4
+      - POR 🇵🇹 Lisb 5
+      - POR 🇵🇹 Lisb 6
+      - POR 🇵🇹 Lisb 7
+      - 🇷🇴 ROM 🇷🇴 Buck
+      - 🇷🇴 ROM 🇷🇴 Buck 2
+      - 🇷🇴 ROM 🇷🇴 Buck 3
+      - 🇷🇴 ROM 🇷🇴 Buck 4
+      - 🇷🇴 ROM 🇷🇴 Buck 5
+      - 🇷🇴 ROM 🇷🇴 Buck 6
+      - 🇷🇴 ROM 🇷🇴 Buck 7
+      - 🇷🇴 ROM 🇷🇴 Buck 8
+      - 🇷🇴 ROM 🇷🇴 Buck 9
+      - 🇷🇴 ROM 🇷🇴 Buck 10
+      - 🇷🇺 RUS 🇷🇺 Mos
+      - 🇷🇺 RUS 🇷🇺 Mos 2
+      - 🇷🇺 RUS 🇷🇺 Mos 3
+      - 🇷🇺 RUS 🇷🇺 Mos 4
+      - 🇷🇺 RUS 🇷🇺 Mos 5
+      - 🇷🇺 RUS 🇷🇺 Mos 6
+      - 🇷🇺 RUS 🇷🇺 Mos 7
+      - 🇷🇺 RUS 🇷🇺 Mos 8
+      - 🇷🇺 RUS 🇷🇺 Mos 9
+      - 🇷🇺 RUS 🇷🇺 Mos 10
+      - 🇷🇺 RUS 🇷🇺 Spt
+      - 🇸🇪 SERB 🇷🇸 Blgr
+      - 🇸🇪 SERB 🇷🇸 Blgr 2
+      - 🇸🇪 SERB 🇷🇸 Blgr 3
+      - SING 🇸🇬 Sng
+      - SING 🇸🇬 Sng 2
+      - SING 🇸🇬 Sng 3
+      - SING 🇸🇬 Sng 4
+      - SING 🇸🇬 Sng 5
+      - SING 🇸🇬 Sng 6
+      - SING 🇸🇬 Sing
+      - SING 🇸🇬 Sing 2
+      - SING 🇸🇬 Sing 3
+      - SING 🇸🇬 Sing 4
+      - SING 🇸🇬 Sing 5
+      - SING 🇸🇬 Sing 6
+      - SING 🇸🇬 Sing 7
+      - SLVA 🇸🇰 Brts
+      - SLVA 🇸🇰 Brts 2
+      - SLVA 🇸🇰 Brts 3
+      - SLVE 🇸🇮 Ljbl
+      - SLVE 🇸🇮 Ljbl 2
+      - SLVE 🇸🇮 Ljbl 3
+      - SLVE 🇸🇮 Ljbl 4
+      - S-AF 🇿🇦 Gaut
+      - S-AF 🇿🇦 Gaut 2
+      - S-AF 🇿🇦 Gaut 3
+      - S-AF 🇿🇦 Gaut 4
+      - S-AF 🇿🇦 Gaut 5
+      - 🇨🇳 S-AF 🇿🇦 CpTw
+      - 🇨🇳 S-AF 🇿🇦 CpTw 2
+      - S-AF 🇿🇦 Gaut 6
+      - S-AF 🇿🇦 Gaut 7
+      - S-AF 🇿🇦 Gaut 8
+      - S-AF 🇿🇦 Gaut 9
+      - S-AF 🇿🇦 Gaut 10
+      - S-AF 🇿🇦 Gaut 11
+      - S-AF 🇿🇦 Juh
+      - S-AF 🇿🇦 Juh 2
+      - S-AF 🇿🇦Jnb
+      - SPA 🇪🇸 Barc
+      - SPN 🇪🇸 Barc
+      - SPN 🇪🇸 Barc 2
+      - SPN 🇪🇸 Mad
+      - SPN 🇪🇸 Mad 2
+      - SPN 🇪🇸 Mad 3
+      - SPN 🇪🇸 Mad 4
+      - SPN 🇪🇸 Mad 5
+      - SPN 🇪🇸 Mad 6
+      - SPN 🇪🇸 Madr
+      - SPN 🇪🇸 Madr 2
+      - SPN 🇪🇸 Madr 3
+      - SPN 🇪🇸 Madr 4
+      - SPN 🇪🇸 Madr 5
+      - SPN 🇪🇸 Madr 6
+      - SPN 🇪🇸 Valn
+      - SPN 🇪🇸 Valn 2
+      - SWD 🇸🇪 Stok
+      - SWD 🇸🇪 Stok 2
+      - SWI 🇨🇭 Zur
+      - SWI 🇨🇭 Zur 2
+      - SWI 🇨🇭 Zur 3
+      - SWI 🇨🇭 Zur 4
+      - SWI 🇨🇭 Zur 5
+      - SWI 🇨🇭 Zur 6
+      - SWI 🇨🇭 Zur 7
+      - SWI 🇨🇭 Zur 8
+      - SWI 🇨🇭 Zur 9
+      - SWI 🇨🇭 Zur 10
+      - SWI 🇨🇭 Zur 11
+      - SWI 🇨🇭 Zur 12
+      - SWI 🇨🇭 Zur 13
+      - SWI 🇨🇭 Zur 14
+      - SWI 🇨🇭 Zur 15
+      - SWI 🇨🇭 Zur 16
+      - SWI 🇨🇭 Zur 17
+      - SWI 🇨🇭 Zur 18
+      - SWI 🇨🇭 Zur 19
+      - SWI 🇨🇭 Zur 20
+      - SWI 🇨🇭 Zur 21
+      - SWI 🇨🇭 Zur 22
+      - SWI 🇨🇭 Zur 23
+      - SWI 🇨🇭 Zur 24
+      - SWI 🇨🇭 Zur 25
+      - 🇨🇳 TW 🇹🇼 Tai
+      - 🇨🇳 TW 🇹🇼 Tai 2
+      - 🇹🇭 THIL 🇹🇭 Bank
+      - TAIL 🇹🇭 Bank
+      - TAIL 🇹🇭 Bank 2
+      - TUR 🇹🇷 Bur
+      - TUR 🇹🇷 Bur 2
+      - TUR 🇹🇷 Bur 3
+      - TUR 🇹🇷 Bur 4
+      - TUR 🇹🇷 Bur 5
+      - TUR 🇹🇷 Bur 6
+      - TUR 🇹🇷 Burs
+      - TUR 🇹🇷 Burs 2
+      - TUR 🇹🇷 Burs 3
+      - TUR 🇹🇷 Ist
+      - TUR 🇹🇷 Ist 2
+      - TUR 🇹🇷 Ist 3
+      - TUR 🇹🇷 Bur 7
+      - TUR 🇹🇷 Bur 8
+      - TUR 🇹🇷 Ist 4
+      - TUR 🇹🇷 Ist 5
+      - TUR 🇹🇷 Ist 6
+      - TUR 🇹🇷 Pamk
+      - TUR 🇹🇷 Pamk 2
+      - TUR 🇹🇷 Pamk 3
+      - TUR 🇹🇷 Pamk 4
+      - 🇭🇰 TUR 🇹🇲 Ashk
+      - 🇭🇰 TUR 🇹🇲 Ashk 2
+      - 🇭🇰 TUR 🇹🇲 Ashk 3
+      - 🇭🇰 TUR 🇹🇲 Ashk 4
+      - 🇭🇰 TUR 🇹🇲 Ashk 5
+      - 🇹🇷 TRKM 🇧🇦Ashg
+      - UAE 🇦🇪 Dub
+      - UAE 🇦🇪 Dub 2
+      - UAE 🇦🇪 Dub 3
+      - UAE 🇦🇪 Dub 4
+      - UAE 🇦🇪 Dub 5
+      - UAE 🇦🇪 Dub 6
+      - UAE 🇦🇪 Dub 7
+      - UAE 🇦🇪 Dub 8
+      - UAE 🇦🇪 Dub 9
+      - UAE 🇦🇪 Dub 10
+      - UAE 🇦🇪 Sharj
+      - UAE 🇦🇪 Sharj 2
+      - UAE 🇦🇪 Shar
+      - 🇬🇧 UK 🇬🇧 Leds
+      - 🇬🇧 UK 🇬🇧 Leds 2
+      - 🇬🇧 UK 🇬🇧 Lon
+      - 🇬🇧 UK 🇬🇧 Lon 2
+      - 🇬🇧 UK 🇬🇧 Lon 3
+      - 🇬🇧 UK 🇬🇧 Lon 4
+      - 🇬🇧 UK 🇬🇧 Lon 5
+      - 🇬🇧 UK 🇬🇧 Lon 6
+      - 🇬🇧 UK 🇬🇧 Lon 7
+      - 🇬🇧 UK 🇬🇧 Lon 8
+      - 🇬🇧 UK 🇬🇧 Lon 9
+      - 🇬🇧 UK 🇬🇧 Man
+      - 🇬🇧 UK 🇬🇧 Man 2
+      - 🇬🇧 UK 🇬🇧 Man 3
+      - 🇬🇧 UK 🇬🇧 Man 4
+      - 🇬🇧 UK 🇬🇧 Man 5
+      - 🇬🇧 UK 🇬🇧 Man 6
+      - 🇬🇧 UK 🇬🇧 Lon 10
+      - 🇬🇧 UK 🇬🇧 Lon 11
+      - 🇬🇧 UK 🇬🇧 Lon 12
+      - 🇬🇧 UK 🇬🇧 Lon 13
+      - 🇬🇧 UK 🇬🇧 Lon 14
+      - 🇬🇧 UK 🇬🇧 Lon 15
+      - 🇬🇧 UK 🇬🇧 Lon 16
+      - 🇬🇧 UK 🇬🇧 Lon 17
+      - 🇬🇧 UK 🇬🇧 Lon 18
+      - 🇬🇧 UK 🇬🇧 Man 7
+      - 🇬🇧 UK 🇬🇧 Man 8
+      - 🇬🇧 UK 🇬🇧 Man 9
+      - 🇬🇧 UK 🇬🇧 Man 10
+      - 🇬🇧 UK 🇬🇧 Man 11
+      - 🇬🇧 UK 🇬🇧 Wlvr
+      - 🇬🇧 UKR 🇺🇦 Iev
+      - 🇬🇧 UKR 🇺🇦 Iev 2
+      - 🇬🇧 UKR 🇺🇦 Iev 3
+      - 🇬🇧 UKR 🇺🇦 Iev 4
+      - 🇬🇧 UKR 🇺🇦 Iev 5
+      - 🇬🇧 UKR 🇺🇦 Iev 6
+      - 🇬🇧 UKR 🇺🇦 Iev 7
+      - 🇬🇧 UKR 🇺🇦 Kyv
+      - 🇬🇧 UKR 🇺🇦 Kyv 2
+      - 🇬🇧 UKR 🇺🇦 Kyv 3
+      - 🇬🇧 UKR 🇺🇦 Dnip
+      - 🇬🇧 UKR 🇺🇦 Dnip 2
+      - 🇬🇧 UKR 🇺🇦 Dnip 3
+      - 🇬🇧 UKR 🇺🇦 Dnip 4
+      - 🇬🇧 UKR 🇺🇦 Dnip 5
+      - 🇬🇧 UKR 🇺🇦 Kyv 4
+      - 🇬🇧 UKR 🇺🇦 Kyv 5
+      - 🇬🇧 UKR 🇺🇦 Iev 8
+      - 🇬🇧 UKR 🇺🇦 Iev 9
+      - 🇬🇧 UKR 🇺🇦 Iev 10
+      - 🇺🇸 USA 🇺🇲 Atl
+      - 🇺🇸 USA 🇺🇲 Atl 2
+      - 🇺🇸 USA 🇺🇲 Bos
+      - 🇺🇸 USA 🇺🇲 Bos 2
+      - 🇺🇸 USA 🇺🇲 Bdn
+      - 🇺🇸 USA 🇺🇲 Bdn 2
+      - 🇺🇸 USA 🇺🇲 Buf
+      - 🇺🇸 USA 🇺🇲 Buf 2
+      - 🇺🇸 USA 🇺🇲 Buf 3
+      - 🇺🇸 USA 🇺🇲 Cal
+      - 🇺🇸 USA 🇺🇲 Cal 2
+      - 🇺🇸 USA 🇺🇲 Cali
+      - 🇺🇸 USA 🇺🇲 Cali 2
+      - 🇺🇸 USA 🇺🇲 Cali
+      - 🇺🇸 USA 🇺🇸 Cali
+      - 🇺🇸 USA 🇺🇲 Cali 2
+      - 🇺🇸 USA 🇺🇲 Cali 3
+      - 🇺🇸 USA 🇺🇲 Clt
+      - 🇺🇸 USA 🇺🇲 Clt 2
+      - 🇺🇸 USA 🇺🇲 Delaw
+      - 🇺🇸 USA 🇺🇲 Delaw 2
+      - 🇺🇸 USA 🇺🇲 Delaw 3
+      - 🇺🇸 USA 🇺🇲 Den
+      - 🇺🇸 USA 🇺🇲 Den 2
+      - 🇺🇸 USA 🇺🇲 Dtw
+      - 🇺🇸 USA 🇺🇲 Dtw 2
+      - 🇺🇸 USA 🇺🇸 Flor
+      - 🇺🇸 USA 🇺🇸 Flor 2
+      - 🇺🇸 USA 🇺🇲 Flor
+      - 🇺🇸 USA 🇺🇸 Flor 3
+      - 🇺🇸 USA 🇺🇸 Flor 4
+      - 🇺🇸 USA 🇺🇸 Flor 5
+      - 🇺🇸 USA 🇺🇸 Flor 6
+      - 🇺🇸 USA 🇺🇲 Gorj
+      - 🇺🇸 USA 🇺🇸 Gorj
+      - 🇺🇸 USA 🇺🇸 Gorj 2
+      - 🇺🇸 USA 🇺🇸 Gorj 3
+      - 🇺🇸 USA 🇺🇸 Gorj 4
+      - 🇺🇸 USA 🇺🇲 Gorj
+      - 🇺🇸 USA 🇺🇸 Gorj 5
+      - 🇺🇸 USA 🇺🇸 Gorj 6
+      - 🇺🇸 USA 🇺🇲 Hou
+      - 🇺🇸 USA 🇺🇲 Hou 2
+      - 🇺🇸 USA 🇺🇲 Kan
+      - 🇺🇸 USA 🇺🇲 Kan 2
+      - 🇺🇸 USA 🇺🇲  Kent
+      - 🇺🇸 USA 🇺🇲 Kentk
+      - 🇺🇸 USA 🇺🇲 Kentk 2
+      - 🇺🇸 USA 🇺🇸 Ilin
+      - 🇺🇸 USA 🇺🇸 Ilin 2
+      - 🇺🇸 USA 🇺🇲 Ilin
+      - 🇺🇸 USA 🇺🇸 Ilin 3
+      - 🇺🇸 USA 🇺🇸 Ilin 4
+      - 🇺🇸 USA 🇺🇲 Las
+      - 🇺🇸 USA 🇺🇲 Las 2
+      - 🇺🇸 USA 🇺🇸 Lexi
+      - 🇺🇸 USA 🇺🇲 Los
+      - 🇺🇸 USA 🇺🇲 Los
+      - 🇺🇸 USA 🇺🇲 Los 2
+      - 🇺🇸 USA 🇺🇲 Ltm
+      - 🇺🇸 USA 🇺🇲 Ltm 2
+      - 🇺🇸 USA 🇺🇲 Mia
+      - 🇺🇸 USA 🇺🇲 Mia 2
+      - 🇺🇸 USA 🇺🇸 Mia
+      - 🇺🇸 USA 🇺🇸 Mich
+      - 🇺🇸 USA 🇺🇸 Mich 2
+      - 🇺🇸 USA 🇺🇲 Miso
+      - 🇺🇸 USA 🇺🇸 Miso
+      - 🇺🇸 USA 🇺🇲 Mnz
+      - 🇺🇸 USA 🇺🇸 NCal
+      - 🇺🇸 USA 🇺🇸 Nebr
+      - 🇺🇸 USA 🇺🇸 NY
+      - 🇺🇸 USA 🇺🇸 NY 2
+      - 🇺🇸 USA 🇺🇸 NY 3
+      - 🇺🇸 USA 🇺🇲 NY
+      - 🇺🇸 USA 🇺🇸 NY 4
+      - 🇺🇸 USA 🇺🇸 NY 5
+      - 🇺🇸 USA 🇺🇲 NY 2
+      - 🇺🇸 USA 🇺🇲 NY 3
+      - 🇺🇸 USA 🇺🇲 NY 4
+      - 🇺🇸 USA 🇺🇲 Phx
+      - 🇺🇸 USA 🇺🇲 Ohio
+      - 🇺🇸 USA 🇺🇲 Ohio 2
+      - 🇺🇸 USA 🇺🇸 Okla
+      - 🇺🇸 USA 🇺🇸 Okla 2
+      - 🇺🇸 USA 🇺🇲 Orl
+      - 🇺🇸 USA 🇺🇲 Orl 2
+      - 🇺🇸 USA 🇺🇲 Pens
+      - 🇺🇸 USA 🇺🇲 Phx 2
+      - 🇺🇸 USA 🇺🇸 RodA
+      - 🇺🇸 USA 🇺🇲 Sea
+      - 🇺🇸 USA 🇺🇲 Sea 2
+      - 🇺🇸 USA 🇺🇲 Stl
+      - 🇺🇸 USA 🇺🇲 Stl 2
+      - 🇺🇸 USA 🇺🇲 Tex
+      - 🇺🇸 USA 🇺🇸 Tex
+      - 🇺🇸 USA 🇺🇸 Tex 2
+      - 🇺🇸 USA 🇺🇲 Tpa
+      - 🇺🇸 USA 🇺🇲 Tpa 2
+      - 🇺🇸 USA 🇺🇸 Virg
+      - 🇺🇸 USA 🇺🇸 Virg 2
+      - 🇺🇸 USA 🇺🇸 Wash
+      - 🇺🇸 USA 🇺🇸 Wash 2
+      - 🇺🇸 USA 🇺🇸 Los
+      - 🇺🇸 USA 🇺🇸Buf
+      - 🇺🇸 USA 🇺🇸 Ltw
+      - 🇺🇸 USA 🇺🇸Chi
+      - 🇺🇸 USA 🇺🇸Stl
+      - 🇺🇸 USA 🇺🇸 Stl
+      - 🇺🇸 USA 🇺🇸 Mia 2
+      - 🇺🇸 USA 🇺🇸 Orl
+      - 🇺🇸 USA 🇺🇸 Tpa
+      - 🇺🇸 USA 🇺🇸 Kan
+      - 🇺🇸 USA 🇺🇸 Den
+      - 🇺🇸 USA 🇺🇸 Dal
+      - 🇺🇸 USA 🇺🇸 Sea
+      - 🇺🇸 USA 🇺🇸 Bdn
+      - 🇺🇸 USA 🇺🇸 Slc
+      - 🇺🇸 USA 🇺🇸 Hou
+      - 🇺🇸 USA 🇺🇸 Phx
+      - 🇺🇸 USA 🇺🇸 Lax
+      - 🇺🇸 USA 🇺🇸 Sfo
+      - 🇺🇸 USA 🇺🇸 Las
+      - 🇺🇸 USA 🇺🇸 Okc
+      - 🇺🇸 USA 🇺🇸 Sdf
+      - 🇺🇸 USA 🇺🇲 Los 3
+      - 🇺🇸 USA 🇺🇲 San
+      - 🇺🇸 USA 🇺🇲 Bos 3
+      - 🇺🇸 USA 🇺🇲 Mia 3
+      - 🇺🇸 USA 🇺🇲 Nyc
+      - 🇺🇸 USA 🇺🇲 Las 3
+      - 🇺🇸 USA 🇺🇲 Kan 3
+      - 🇺🇸 USA 🇺🇲 Buf 4
+      - 🇺🇸 USA 🇺🇲 Hou 3
+      - 🇺🇸 USA 🇺🇲 Den 3
+      - 🇺🇸 USA 🇺🇲 Sea 3
+      - 🇺🇸 USA 🇺🇲 Atl 3
+      - 🇺🇸 USA 🇺🇲 Clt 3
+      - 🇺🇸 USA 🇺🇲 Tpa 3
+      - 🇺🇸 USA 🇺🇲 Phx 3
+      - 🇺🇸 USA 🇺🇲 Bdn 3
+      - 🇺🇸 USA 🇺🇲 Ltm 3
+      - 🇺🇸 USA 🇺🇲 Mnz 2
+      - 🇺🇸 USA 🇺🇲 Dtw 3
+      - 🇺🇸 USA 🇺🇲 Stl 3
+      - 🇺🇸 USA 🇺🇲 Orl 3
+      - 🇺🇸 USA 🇺🇲 Slc
+      - 🇺🇸 USA 🇺🇲 Chi
+      - 🇺🇸 USA 🇺🇲 Cal
+      - 🇺🇸 USA 🇺🇲 Los 4
+      - 🇺🇸 USA 🇺🇲 San 2
+      - 🇺🇸 USA 🇺🇲 Bos 4
+      - 🇺🇸 USA 🇺🇲 Mia 4
+      - 🇺🇸 USA 🇺🇲 Nyc 2
+      - 🇺🇸 USA 🇺🇲 Las 4
+      - 🇺🇸 USA 🇺🇲 Kan 4
+      - 🇺🇸 USA 🇺🇲 Buf 5
+      - 🇺🇸 USA 🇺🇲 Hou 4
+      - 🇺🇸 USA 🇺🇲 Sea 4
+      - 🇺🇸 USA 🇺🇲 Atl 4
+      - 🇺🇸 USA 🇺🇲 Clt 4
+      - 🇺🇸 USA 🇺🇲 Tpa 4
+      - 🇺🇸 USA 🇺🇲 Phx 4
+      - 🇺🇸 USA 🇺🇲 Bdn 4
+      - 🇺🇸 USA 🇺🇲 Ltm 4
+      - 🇺🇸 USA 🇺🇲 Mnz 3
+      - 🇺🇸 USA 🇺🇲 Dtw 4
+      - 🇺🇸 USA 🇺🇲 Stl 4
+      - 🇺🇸 USA 🇺🇲 Orl 4
+      - 🇺🇸 USA 🇺🇲 Slc 2
+      - 🇺🇸 USA 🇺🇲 Chi 2
+      - 🇺🇸 USA 🇺🇲 Cal 3
+      - 🇺🇸 USA 🇺🇲 Los 5
+      - 🇺🇸 USA 🇺🇲 San 3
+      - 🇺🇸 USA 🇺🇲 Bos 5
+      - 🇺🇸 USA 🇺🇲 Mia 5
+      - 🇺🇸 USA 🇺🇲 Nyc 3
+      - 🇺🇸 USA 🇺🇲 Las 5
+      - 🇺🇸 USA 🇺🇲 Kan 5
+      - 🇺🇸 USA 🇺🇲 Buf 6
+      - 🇺🇸 USA 🇺🇲 Hou 5
+      - 🇺🇸 USA 🇺🇲 Den 4
+      - 🇺🇸 USA 🇺🇲 Sea 5
+      - 🇺🇸 USA 🇺🇲 Atl 5
+      - 🇺🇸 USA 🇺🇲 Clt 5
+      - 🇺🇸 USA 🇺🇲 Tpa 5
+      - 🇺🇸 USA 🇺🇲 Phx 5
+      - 🇺🇸 USA 🇺🇲 Bdn 5
+      - 🇺🇸 USA 🇺🇲 Ltm 5
+      - 🇺🇸 USA 🇺🇲 Mnz 4
+      - 🇺🇸 USA 🇺🇲 Dtw 5
+      - 🇺🇸 USA 🇺🇲 Stl 5
+      - 🇺🇸 USA 🇺🇲 Orl 5
+      - 🇺🇸 USA 🇺🇲 Slc 3
+      - 🇺🇸 USA 🇺🇲 Chi 3
+      - 🇺🇸 USA 🇺🇲 Den 5
+      - 🇺🇸 USA 🇺🇲 Cal 4
+      - 🇺🇸 USA 🇺🇲 Los 6
+      - 🇺🇸 USA 🇺🇲 San 4
+      - 🇺🇸 USA 🇺🇲 Bos 6
+      - 🇺🇸 USA 🇺🇲 Mia 6
+      - 🇺🇸 USA 🇺🇲 Nyc 4
+      - 🇺🇸 USA 🇺🇲 Las 6
+      - 🇺🇸 USA 🇺🇲 Kan 6
+      - 🇺🇸 USA 🇺🇲 Buf 7
+      - 🇺🇸 USA 🇺🇲 Hou 6
+      - 🇺🇸 USA 🇺🇲 Den 6
+      - 🇺🇸 USA 🇺🇲 Sea 6
+      - 🇺🇸 USA 🇺🇲 Atl 6
+      - 🇺🇸 USA 🇺🇲 Clt 6
+      - 🇺🇸 USA 🇺🇲 Tpa 6
+      - 🇺🇸 USA 🇺🇲 Phx 6
+      - 🇺🇸 USA 🇺🇲 Bdn 6
+      - 🇺🇸 USA 🇺🇲 Ltm 6
+      - 🇺🇸 USA 🇺🇲 Mnz 5
+      - 🇺🇸 USA 🇺🇲 Dtw 6
+      - 🇺🇸 USA 🇺🇲 Stl 6
+      - 🇺🇸 USA 🇺🇲 Orl 6
+      - 🇺🇸 USA 🇺🇲 Slc 4
+      - 🇺🇸 USA 🇺🇲 Chi 4
+      - 🇺🇸 USA 🇺🇲 Cal 5
+      - 🇺🇸 USA 🇺🇲 Los 7
+      - 🇺🇸 USA 🇺🇲 San 5
+      - 🇺🇸 USA 🇺🇲 Bos 7
+      - 🇺🇸 USA 🇺🇲 Mia 7
+      - 🇺🇸 USA 🇺🇲 Nyc 5
+      - 🇺🇸 USA 🇺🇲 Las 7
+      - 🇺🇸 USA 🇺🇲 Kan 7
+      - 🇺🇸 USA 🇺🇲 Buf 8
+      - 🇺🇸 USA 🇺🇲 Hou 7
+      - 🇺🇸 USA 🇺🇲 Den 7
+      - 🇺🇸 USA 🇺🇲 Sea 7
+      - 🇺🇸 USA 🇺🇲 Atl 7
+      - 🇺🇸 USA 🇺🇲 Clt 7
+      - 🇺🇸 USA 🇺🇲 Tpa 7
+      - 🇺🇸 USA 🇺🇲 Phx 7
+      - 🇺🇸 USA 🇺🇲 Bdn 7
+      - 🇺🇸 USA 🇺🇲 Ltm 7
+      - 🇺🇸 USA 🇺🇲 Mnz 6
+      - 🇺🇸 USA 🇺🇲 Dtw 7
+      - 🇺🇸 USA 🇺🇲 Stl 7
+      - 🇺🇸 USA 🇺🇲 Orl 7
+      - 🇺🇸 USA 🇺🇲 Slc 5
+      - 🇺🇸 USA 🇺🇲 Chi 5
+      - 🇺🇸 USA 🇺🇲 Los 8
+      - 🇺🇸 USA 🇺🇲 San 6
+      - 🇺🇸 USA 🇺🇲 Bos 8
+      - 🇺🇸 USA 🇺🇲 Mia 8
+      - 🇺🇸 USA 🇺🇲 Nyc 6
+      - 🇺🇸 USA 🇺🇲 Las 8
+      - 🇺🇸 USA 🇺🇲 Kan 8
+      - 🇺🇸 USA 🇺🇲 Buf 9
+      - 🇺🇸 USA 🇺🇲 Hou 8
+      - 🇺🇸 USA 🇺🇲 Den 8
+      - 🇺🇸 USA 🇺🇲 Sea 8
+      - 🇺🇸 USA 🇺🇲 Atl 8
+      - 🇺🇸 USA 🇺🇲 Clt 8
+      - 🇺🇸 USA 🇺🇲 Tpa 8
+      - 🇺🇸 USA 🇺🇲 Phx 8
+      - 🇺🇸 USA 🇺🇲 Bdn 8
+      - 🇺🇸 USA 🇺🇲 Ltm 8
+      - 🇺🇸 USA 🇺🇲 Mnz 7
+      - 🇺🇸 USA 🇺🇲 Dtw 8
+      - 🇺🇸 USA 🇺🇲 Stl 8
+      - 🇺🇸 USA 🇺🇲 Orl 8
+      - 🇺🇸 USA 🇺🇲 Slc 6
+      - 🇺🇸 USA 🇺🇲 Chi 6
+      - 🇺🇸 USA 🇺🇲 Cal 6
+      - 🇺🇸 USA 🇺🇲 Los 9
+      - 🇺🇸 USA 🇺🇲 San 7
+      - 🇺🇸 USA 🇺🇲 Bos 9
+      - 🇺🇸 USA 🇺🇲 Mia 9
+      - 🇺🇸 USA 🇺🇲 Nyc 7
+      - 🇺🇸 USA 🇺🇲 Las 9
+      - 🇺🇸 USA 🇺🇲 Kan 9
+      - 🇺🇸 USA 🇺🇲 Buf 10
+      - 🇺🇸 USA 🇺🇲 Hou 9
+      - 🇺🇸 USA 🇺🇲 Den 9
+      - 🇺🇸 USA 🇺🇲 Sea 9
+      - 🇺🇸 USA 🇺🇲 Atl 9
+      - 🇺🇸 USA 🇺🇲 Clt 9
+      - 🇺🇸 USA 🇺🇲 Tpa 9
+      - 🇺🇸 USA 🇺🇲 Phx 9
+      - 🇺🇸 USA 🇺🇲 Bdn 9
+      - 🇺🇸 USA 🇺🇲 Ltm 9
+      - 🇺🇸 USA 🇺🇲 Mnz 8
+      - 🇺🇸 USA 🇺🇲 Dtw 9
+      - 🇺🇸 USA 🇺🇲 Stl 9
+      - 🇺🇸 USA 🇺🇲 Orl 9
+      - 🇺🇸 USA 🇺🇲 Slc 7
+      - 🇺🇸 USA 🇺🇲 Chi 7
+      - 🇺🇸 USA 🇺🇲 NY
+      - 🇺🇸 USA 🇺🇲 Atl
+      - 🇺🇸 USA 🇺🇲 Cal 7
+      - VIT 🇻🇳 Hano
+      - VIT 🇻🇳 Hano 2
+      - VIT 🇻🇳 Hcm
+      - VIT 🇻🇳 Hcm 2
+      - VIT 🇻🇳 Hcm 3
+      - VIT 🇻🇳 Hcm 4
+      - VIT 🇻🇳 Hcm 5
+      - VIT 🇻🇳 Hcm 6
+      - VIT 🇻🇳 Hcm 7
+      - VIT 🇻🇳 Hcm 8
+rules:
+ - DOMAIN-KEYWORD,1password,DIRECT
+ - DOMAIN-SUFFIX,vultr.com,DIRECT
+ - DOMAIN-SUFFIX,mb3admin.com,DIRECT
+ - DOMAIN-SUFFIX,rixcloud.io,DIRECT
+ - DOMAIN-SUFFIX,tempestapp.io,DIRECT
+ - DOMAIN-KEYWORD,github,Proxies
+ - DOMAIN-SUFFIX,github.com,Proxies
+ - DOMAIN-SUFFIX,github.io,Proxies
+ - DOMAIN-SUFFIX,githubapp.com,Proxies
+ - DOMAIN-SUFFIX,githubassets.com,Proxies
+ - DOMAIN-SUFFIX,githubusercontent.com,Proxies
+ - DOMAIN-SUFFIX,home-intl.console.aliyun.com,Proxies
+ - DOMAIN,ip.skk.moe,Proxies
+ - DOMAIN,ip.sb,Proxies
+ - DOMAIN-SUFFIX,googleapis.cn,Proxies
+ - GEOIP,CN,DIRECT
+ - MATCH,Proxies
